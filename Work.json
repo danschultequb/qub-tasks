@@ -1,0 +1,76 @@
+{
+  "$schema": "./tasks.schema.json",
+  "ActiveTasks": {
+    "sample-repo-gen-tool": {
+      "Conceived": "2017-09-05",
+      "Started": "2017-09-05",
+      "ActiveTasks": {
+        "Move local repository file copying to JavaSample sub-class": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-05"
+        }
+      },
+      "PlannedTasks": {
+        "Move local repository validation/compiling/dependency reduction to JavaSample sub-class": {
+          "Conceived": "2017-09-05"
+        },
+        "Add local repository file copying to DotNetSample sub-class": {
+          "Conceived": "2017-09-05"
+        },
+        "Add local repository validation/compiling to DotNetSample sub-class": {
+          "Conceived": "2017-09-05"
+        },
+        "Delete .NET implementation": {
+          "Conceived": "2017-09-05"
+        },
+        "Make scriptable": {
+          "Conceived": "2017-09-05",
+          "Notes": "Each operation should have a simple command method that does a large piece of work (make repository public, populate sample local repository, etc.)"
+        }
+      },
+      "CompletedTasks": {
+        "Be able to read the SampleGenerator.data file and only return java samples": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-05",
+          "Completed": "2017-09-05"
+        }
+      }
+    }
+  },
+  "PlannedTasks": {
+    "ExpandableStringEnum": {
+      "Conceived": "2017-09-05",
+      "Started": "2017-09-05",
+      "PlannedTasks": {
+        "Merge latest changes into branch": {
+          "Conceived": "2017-09-05"
+        },
+        "Get all tests to pass": {
+          "Conceived": "2017-09-05"
+        },
+        "Generate inners to ensure they look the same except for ExpandableStringEnum changes": {
+          "Conceived": "2017-09-05"
+        },
+        "Push changes to autorest Java generator repository/pull request": {
+          "Conceived": "2017-09-05"
+        },
+        "Merge pull request": {
+          "Conceived": "2017-09-05"
+        }
+      }
+    },
+    "client-runtime": {
+      "Conceived": "2017-09-05"
+    },
+    "Setup work VM on work laptop": {
+      "Conceived": "2017-09-05"
+    }
+  },
+  "CompletedTasks": {
+    "Fix key-vault-java-manage-key-vaults sample pom.xml file": {
+      "Conceived": "2017-09-05",
+      "Started": "2017-09-05",
+      "Completed": "2017-09-05"
+    }
+  }
+}

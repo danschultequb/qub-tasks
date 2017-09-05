@@ -1,0 +1,63 @@
+{
+  "$schema": "./tasks.schema.json",
+  "ActiveTasks": {
+    "Driveway extension": {
+      "Conceived": "2017-09-05",
+      "Started": "2017-09-05",
+      "ActiveTasks": {},
+      "PlannedTasks": {
+        "Update site plan and drainage review to include paved public right-of-way sections": {
+          "Conceived": "2017-09-05"
+        },
+        "Create cut-section diagram of the gravel driveway materials": {
+          "Conceived": "2017-09-05"
+        },
+        "Update permit application with updated site plan, drainage review, and cut-section diagram": {
+          "Conceived": "2017-09-05"
+        },
+        "Tell JD Hunt about the updated plans for driveway related to paving public right-of-way": {
+          "Conceived": "2017-09-05"
+        },
+        "Get updated estimate from JD Hunt with new work included": {
+          "Conceived": "2017-09-05"
+        },
+        "Schedule new day for driveway installation": {
+          "Conceived": "2017-09-05"
+        }
+      }
+    }
+  },
+  "PlannedTasks": {
+    "Yardwork": {
+      "Conceived": "2017-09-05",
+      "Started": "2017-09-05",
+      "PlannedTasks": {
+        "Clear morning glory away from bamboo": {
+          "Conceived": "2017-09-05"
+        },
+        "Wood chip pile": {
+          "Conceived": "2017-09-05",
+          "PlannedTasks": {
+            "Remove morning glory": {
+              "Conceived": "2017-09-05"
+            }
+          }
+        },
+        "Clear access to front Watnong cedars (remove blackberries and morning glory)": {
+          "Conceived": "2017-09-05"
+        },
+        "Learn how to properly install backyard walking path with woodchips": {
+          "Conceived": "2017-09-05"
+        }
+      }
+    },
+    "Housework": {
+      "Conceived": "2017-09-05",
+      "Started": "2017-09-05",
+      "PlannedTasks": {
+
+      }
+    }
+  },
+  "CompletedTasks": {}
+}

@@ -1,0 +1,2551 @@
+{
+  "$schema": "./tasks.schema.json",
+  "ActiveTasks": {
+    "CSV VS Code Extension": {
+      "Conceived": "2017-09-05",
+      "Started": "2017-09-05",
+      "ActiveTasks": {
+        "Add row/column to status bar": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-05"
+        }
+      },
+      "PlannedTasks": {
+        "Add option to turn off row/column status bar item": {
+          "Conceived": "2017-09-05"
+        },
+        "Add option to turn off CSV error squiggles": {
+          "Conceived": "2017-09-05",
+          "Notes": "This can actually really improve performance."
+        }
+      }
+    }
+  },
+  "PlannedTasks": {
+    "qub-typescript-vscode": {
+      "Conceived": "2017-09-05",
+      "PlannedTasks": {
+        "Add StatusBarItem abstraction": {
+          "Conceived": "2017-09-05",
+          "Notes": "https://code.visualstudio.com/docs/extensions/example-word-count#_update-the-status-bar"
+        }
+      }
+    },
+    "qub-documentation": {
+      "Conceived": "2017-09-05",
+      "Started": "2017-09-05",
+      "PlannedTasks": {},
+      "CompletedTasks": {
+        "Create repository": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-05",
+          "Completed": "2017-09-05"
+        },
+        "Add Example-Word Count VS Code extension examples": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-05",
+          "Completed": "2017-09-05",
+          "Notes": "https://code.visualstudio.com/docs/extensions/example-word-count#_update-the-status-bar"
+        }
+      }
+    },
+    "Create qub-schedule GitHub repository": {
+      "Conceived": "2017-09-05",
+      "Notes": "This repo will be used to store these tasks.json files"
+    },
+    "CSV Parser": {
+      "Conceived": "2017-09-05",
+      "Started": "2017-09-05",
+      "PlannedTasks": {
+        "Add format document": {
+          "Conceived": "2017-09-05"
+        }
+      }
+    },
+    "Change parse() functions to take a addIssue function instead of an issues List": {
+      "Conceived": "2017-09-05"
+    },
+    "Lisp Parser": {
+      "Conceived": "2017-01-30",
+      "PlannedTasks": {
+        "Add error messages": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "Lisp VS Code Extension": {
+      "Conceived": "2017-01-30",
+      "PlannedTasks": {
+        "Show error messages": {
+          "Conceived": "2017-01-30"
+        },
+        "Format document": {
+          "Conceived": "2017-01-30"
+        },
+        "Evaluate/run LISP applications": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "MSBuild Parser": {
+      "Conceived": "2016-07-01",
+      "Started": "2016-07-01",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2016-07-01",
+          "Started": "2016-07-01",
+          "PlannedTasks": {
+            "Read new MSBuild documentation": {
+              "Conceived": "2017-04-07",
+              "Started": "2017-04-25",
+              "Notes": {
+                "URL": "https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild"
+              }
+            },
+            "Allow properties to have any child element": {
+              "Conceived": "2017-04-25",
+              "Notes": {
+                "URL": "https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild-properties#storing-xml-in-properties"
+              }
+            },
+            "Add autocompletion and hover text for standard items (and their metadata)": {
+              "Conceived": "2017-03-22",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/bb629388.aspx"
+              }
+            },
+            "Add autocompletion and hover text for standard properties": {
+              "Conceived": "2017-03-22",
+              "Notes": {
+                "Reserved and Well-Known Properties": "https://msdn.microsoft.com/en-us/library/ms164309.aspx",
+                "Common MSBuild Project Properties": "https://msdn.microsoft.com/en-us/library/bb629394.aspx"
+              }
+            },
+            "Add autocompletion and hover text for standard item metadata (applies to all items)": {
+              "Conceived": "2017-03-22",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ms164313.aspx"
+              }
+            },
+            "Make 'Include' an optional attribute on Target ItemGroups": {
+              "Conceived": "2017-04-18"
+            },
+            "Add 'Task' child element schema to 'UsingTask'": {
+              "Conceived": "2017-04-18"
+            },
+            "Add 'Version' attribute to 'Item' elements": {
+              "Conceived": "2017-04-18"
+            },
+            "Parse condition value expressions": {
+              "Conceived": "2017-03-26",
+              "Started": "2017-04-04",
+              "PlannedTasks": {
+                "Parse And condition": {
+                  "Conceived": "2017-03-26",
+                  "Started": "2017-04-24"
+                },
+                "Parse < condition": {
+                  "Conceived": "2017-03-26"
+                },
+                "Parse <= condition": {
+                  "Conceived": "2017-03-26"
+                },
+                "Parse > condition": {
+                  "Conceived": "2017-03-26"
+                },
+                "Parse >= condition": {
+                  "Conceived": "2017-03-26"
+                },
+                "Parse Exists() condition": {
+                  "Conceived": "2017-03-26"
+                },
+                "Parse HasTrailingSlash() condition": {
+                  "Conceived": "2017-03-26"
+                },
+                "Parse Or condition": {
+                  "Conceived": "2017-03-26"
+                },
+                "Parse () grouping condition": {
+                  "Conceived": "2017-03-26"
+                }
+              },
+              "CompletedTasks": {
+                "Parse != condition": {
+                  "Conceived": "2017-03-26",
+                  "Started": "2017-04-23",
+                  "Completed": "2017-04-24"
+                },
+                "Parse ! condition": {
+                  "Conceived": "2017-03-26",
+                  "Started": "2017-04-23",
+                  "Completed": "2017-04-24"
+                },
+                "Parse == condition": {
+                  "Conceived": "2017-03-26",
+                  "Started": "2017-04-05",
+                  "Completed": "2017-04-23"
+                },
+                "Expose expression object on MSBuild attributes": {
+                  "Conceived": "2017-04-04",
+                  "Started": "2017-04-04",
+                  "Completed": "2017-04-05"
+                }
+              },
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/7szfhaft.aspx"
+              }
+            },
+            "Parse property reference function calls": {
+              "Conceived": "2017-03-26"
+            },
+            "Parse property function calls": {
+              "Conceived": "2017-03-26",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/dd633440.aspx"
+              }
+            },
+            "Parse item metadata references": {
+              "Conceived": "2017-03-26"
+            },
+            "Add warning messages to references to properties that don't exist": {
+              "Conceived": "2017-04-04"
+            },
+            "Add validation for custom tasks from existing dlls": {
+              "Conceived": "2017-02-27"
+            },
+            "Add validation for custom tasks from in-file code": {
+              "Conceived": "2017-02-27"
+            },
+            "Error messages for invalid attribute values": {
+              "Conceived": "2017-01-30"
+            },
+            "Error messages for Project DefaultTargets target names that don't exist": {
+              "Conceived": "2017-04-18"
+            }
+          },
+          "CompletedTasks": {
+            "Parse simple item references": {
+              "Conceived": "2017-03-26",
+              "Started": "2017-04-04",
+              "Completed": "2017-04-04"
+            },
+            "Parse attribute value and property text expressions": {
+              "Conceived": "2017-01-30",
+              "Started": "2017-03-21",
+              "Completed": "2017-04-04",
+              "CompletedTasks": {
+                "Parse simple property references": {
+                  "Conceived": "2017-03-26",
+                  "Started": "2017-04-04",
+                  "Completed": "2017-04-04"
+                }
+              }
+            },
+            "Add validation for standard tasks": {
+              "Conceived": "2016-10-28",
+              "Started": "2017-02-27",
+              "Completed": "2017-03-21",
+              "CompletedTasks": {
+                "XslTransformation": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-21",
+                  "Completed": "2017-03-21",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ff598688.aspx"
+                  }
+                },
+                "XSD": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-21",
+                  "Completed": "2017-03-21",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ee862472.aspx"
+                  }
+                },
+                "XMLPoke": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-21",
+                  "Completed": "2017-03-21",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ff598687.aspx"
+                  }
+                },
+                "XMLPeek": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-21",
+                  "Completed": "2017-03-21",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ff598684.aspx"
+                  }
+                },
+                "XDCMake": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-21",
+                  "Completed": "2017-03-21",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ee862480.aspx"
+                  }
+                },
+                "WriteLinesToFile": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-21",
+                  "Completed": "2017-03-21",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ms164305.aspx"
+                  }
+                },
+                "WriteCodeFragment": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-21",
+                  "Completed": "2017-03-21",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ff598685.aspx"
+                  }
+                },
+                "Warning": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-21",
+                  "Completed": "2017-03-21",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/92775st5.aspx"
+                  }
+                },
+                "VCMessage": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-21",
+                  "Completed": "2017-03-21",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ee862479.aspx"
+                  }
+                },
+                "Vbc": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-20",
+                  "Completed": "2017-03-21",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/sb7a1e29.aspx"
+                  }
+                },
+                "UpdateManifest": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-20",
+                  "Completed": "2017-03-20",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ff598683.aspx"
+                  }
+                },
+                "UnregisterAssembly": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-20",
+                  "Completed": "2017-03-20",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/a8d5b2y5.aspx"
+                  }
+                },
+                "Touch": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-20",
+                  "Completed": "2017-03-20",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/37fwbyt5.aspx"
+                  }
+                },
+                "SignFile": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-20",
+                  "Completed": "2017-03-20",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ms164304.aspx"
+                  }
+                },
+                "SGen": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-20",
+                  "Completed": "2017-03-20",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ms164303.aspx"
+                  }
+                },
+                "SetEnv": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-20",
+                  "Completed": "2017-03-20",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ee862485.aspx"
+                  }
+                },
+                "ResolveNonMSBuildProjectOutput": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-20",
+                  "Completed": "2017-03-20",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ff598690.aspx"
+                  }
+                },
+                "ResolveNativeReference": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-19",
+                  "Completed": "2017-03-20",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ms164302.aspx"
+                  }
+                },
+                "ResolveManifestFiles": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-19",
+                  "Completed": "2017-03-19",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ff598691.aspx"
+                  }
+                },
+                "ResolveKeySource": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-19",
+                  "Completed": "2017-03-19",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ms164301.aspx"
+                  }
+                },
+                "ResolveComReference": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-19",
+                  "Completed": "2017-03-19",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/56e00bfh.aspx"
+                  }
+                },
+                "ResolveAssemblyReference": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-09",
+                  "Completed": "2017-03-19",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/9ad3f294.aspx"
+                  }
+                },
+                "RequiresFramework35SP1Assembly": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-09",
+                  "Completed": "2017-03-09",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ff598689.aspx"
+                  }
+                },
+                "RemoveDuplicates": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-09",
+                  "Completed": "2017-03-09",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ms164300.aspx"
+                  }
+                },
+                "RemoveDir": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-09",
+                  "Completed": "2017-03-09",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/xyfz6ddb.aspx"
+                  }
+                },
+                "RegisterAssembly": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-09",
+                  "Completed": "2017-03-09",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/dakwb8wf.aspx"
+                  }
+                },
+                "ReadLinesFromFile": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-09",
+                  "Completed": "2017-03-09",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ms164299.aspx"
+                  }
+                },
+                "RC": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-08",
+                  "Completed": "2017-03-09",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ee862475.aspx"
+                  }
+                },
+                "MT": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-08",
+                  "Completed": "2017-03-08",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ee862482.aspx"
+                  }
+                },
+                "MSBuild": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-08",
+                  "Completed": "2017-03-08",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/z7f65y0d.aspx"
+                  }
+                },
+                "Move": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-08",
+                  "Completed": "2017-03-08",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ff595163.aspx"
+                  }
+                },
+                "MIDL": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-07",
+                  "Completed": "2017-03-08",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ee862478.aspx"
+                  }
+                },
+                "Message": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-07",
+                  "Completed": "2017-03-07",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/6yy0yx8d.aspx"
+                  }
+                },
+                "MakeDir": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-07",
+                  "Completed": "2017-03-07",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/s2448zz7.aspx"
+                  }
+                },
+                "Link": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-06",
+                  "Completed": "2017-03-07",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ee862471.aspx"
+                  }
+                },
+                "LIB": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-06",
+                  "Completed": "2017-03-06",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ee862484.aspx"
+                  }
+                },
+                "LC": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-06",
+                  "Completed": "2017-03-06",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/dya5de84.aspx"
+                  }
+                },
+                "GetReferenceAssemblyPaths": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-04",
+                  "Completed": "2017-03-04",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ff595159.aspx"
+                  }
+                },
+                "GetFrameworkSdkPath": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-04",
+                  "Completed": "2017-03-04",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ms164298.aspx"
+                  }
+                },
+                "GetFrameworkPath": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-03",
+                  "Completed": "2017-03-04",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ms164297.aspx"
+                  }
+                },
+                "GetAssemblyIdentity": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-03",
+                  "Completed": "2017-03-03",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ms164296.aspx"
+                  }
+                },
+                "GenerateTrustInfo": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-03",
+                  "Completed": "2017-03-03",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ff595160.aspx"
+                  }
+                },
+                "GenerateResource": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-03",
+                  "Completed": "2017-03-03",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ms164295.aspx"
+                  }
+                },
+                "GenerateDeploymentManifest": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-03",
+                  "Completed": "2017-03-03",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/3k2t34e7.aspx"
+                  }
+                },
+                "GenerateBootstrapper": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-03",
+                  "Completed": "2017-03-03",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ms164294.aspx"
+                  }
+                },
+                "GenerateApplicationManifest": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-03",
+                  "Completed": "2017-03-03",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/6wc2ccdc.aspx"
+                  }
+                },
+                "FormatVersion": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-03",
+                  "Completed": "2017-03-03",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ff595162.aspx"
+                  }
+                },
+                "FormatUrl": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-03",
+                  "Completed": "2017-03-03",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ff595161.aspx"
+                  }
+                },
+                "FindUnderPath": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-02",
+                  "Completed": "2017-03-03",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ms164293.aspx"
+                  }
+                },
+                "FindInList": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-02",
+                  "Completed": "2017-03-02",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/bb763047.aspx"
+                  }
+                },
+                "FindAppConfigFile": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-02",
+                  "Completed": "2017-03-02",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ff595164.aspx"
+                  }
+                },
+                "Exec": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-02",
+                  "Completed": "2017-03-02",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/x8zx72cd.aspx"
+                  }
+                },
+                "Delete": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-02",
+                  "Completed": "2017-03-02",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/7wd15byf.aspx"
+                  }
+                },
+                "Csc": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-01",
+                  "Completed": "2017-03-02",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/s5c8athz.aspx"
+                  }
+                },
+                "CreateVirtualBasicManifestResourceName": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-02",
+                  "Completed": "2017-03-02",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/bb762915.aspx"
+                  }
+                },
+                "CreateProperty": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-02",
+                  "Completed": "2017-03-02",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/63ckb9s9.aspx"
+                  }
+                },
+                "CreateItem": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-02",
+                  "Completed": "2017-03-02",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/s2y3e43x.aspx"
+                  }
+                },
+                "CreateCSharpManifestResourceName": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-01",
+                  "Completed": "2017-03-02",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/bb762925.aspx"
+                  }
+                },
+                "CPPClean": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-01",
+                  "Completed": "2017-03-01",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ee862481.aspx"
+                  }
+                },
+                "ConvertToAbsolutePath": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-01",
+                  "Completed": "2017-03-01",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/bb882668.aspx"
+                  }
+                },
+                "CombinePath": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-03-01",
+                  "Completed": "2017-03-01",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/bb763042.aspx"
+                  }
+                },
+                "CL": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-02-28",
+                  "Completed": "2017-03-01",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ee862477.aspx"
+                  }
+                },
+                "CallTarget": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-02-28",
+                  "Completed": "2017-02-28",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ms229474.aspx"
+                  }
+                },
+                "AssignTargetPath": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-02-28",
+                  "Completed": "2017-02-28",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ff601917.aspx"
+                  }
+                },
+                "AssignProjectConfiguration": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-02-27",
+                  "Completed": "2017-02-28",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ff598682.aspx"
+                  }
+                },
+                "Error": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-02-27",
+                  "Completed": "2017-02-27",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/8b08t3s4.aspx"
+                  }
+                },
+                "Copy": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-02-27",
+                  "Completed": "2017-02-27",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/3e54c37h.aspx"
+                  }
+                },
+                "AssignCulture": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-02-27",
+                  "Completed": "2017-02-27",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ms164292.aspx"
+                  }
+                },
+                "AspNetCompiler": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-02-27",
+                  "Completed": "2017-02-27",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ms164291.aspx"
+                  }
+                },
+                "AL": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-02-27",
+                  "Completed": "2017-02-27",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/cywecfx9.aspx"
+                  }
+                },
+                "BscMake": {
+                  "Conceived": "2017-02-27",
+                  "Started": "2017-02-27",
+                  "Completed": "2017-02-27",
+                  "Notes": {
+                    "URL": "https://msdn.microsoft.com/en-us/library/ee862483.aspx"
+                  }
+                }
+              }
+            },
+            "Allow Items to not have an Include attribute if they are inside of a Target element and they have a Remove attribute": {
+              "Conceived": "2016-12-06",
+              "Started": "2017-02-27",
+              "Completed": "2017-02-27",
+              "Notes": {
+                "Reference URL": "https://msdn.microsoft.com/en-us/library/ms171453.aspx#Anchor_7"
+              }
+            },
+            "Add XML error messages to MSBuild document issues list": {
+              "Conceived": "2017-02-13",
+              "Started": "2017-02-27",
+              "Completed": "2017-02-27"
+            },
+            "Parse Import element": {
+              "Conceived": "2017-02-09",
+              "Started": "2017-02-27",
+              "Completed": "2017-02-27"
+            },
+            "Parse PropertyGroup element": {
+              "Conceived": "2017-02-09",
+              "Started": "2017-02-27",
+              "Completed": "2017-02-27"
+            },
+            "Parse Property element": {
+              "Conceived": "2017-02-09",
+              "Started": "2017-02-27",
+              "Completed": "2017-02-27"
+            },
+            "Parse ItemGroup element": {
+              "Conceived": "2017-02-09",
+              "Started": "2017-02-27",
+              "Completed": "2017-02-27"
+            },
+            "Add Label attribute to PropertyGroup": {
+              "Conceived": "2017-01-30",
+              "Started": "2017-02-27",
+              "Completed": "2017-02-27"
+            },
+            "Add Label attribute to Import": {
+              "Conceived": "2017-02-03",
+              "Started": "2017-02-27",
+              "Completed": "2017-02-27"
+            },
+            "Fix ImportGroup cannot have any child elements bug": {
+              "Conceived": "2017-02-01",
+              "Started": "2017-02-27",
+              "Completed": "2017-02-27"
+            },
+            "Remove schemas from MSBuild and use objects instead": {
+              "Conceived": "2017-01-30",
+              "Started": "2017-02-27",
+              "Completed": "2017-02-27"
+            },
+            "Add error message for missing Project xmlns attribute": {
+              "Conceived": "2017-02-13",
+              "Started": "2017-02-13",
+              "Completed": "2017-02-27"
+            },
+            "Add hover text for Project element": {
+              "Conceived": "2017-02-12",
+              "Started": "2017-02-12",
+              "Completed": "2017-02-13"
+            },
+            "Parse Project element": {
+              "Conceived": "2017-02-09",
+              "Started": "2017-02-09",
+              "Completed": "2017-02-12"
+            },
+            "Add option to ignore XML parse errors": {
+              "Conceived": "2016-10-07",
+              "Started": "2016-10-07",
+              "Completed": "2016-10-07"
+            },
+            "Add error messages": {
+              "Conceived": "2016-09-22",
+              "Started": "2016-09-22",
+              "Completed": "2016-10-05"
+            }
+          }
+        },
+        "C": {
+          "Conceived": "2017-01-30"
+        },
+        "C#": {
+          "Conceived": "2017-01-30"
+        },
+        "Java": {
+          "Conceived": "2017-01-30"
+        },
+        "QubLang": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "MSBuild VS Code Extension": {
+      "Conceived": "2017-01-30",
+      "Started": "2017-01-30",
+      "PlannedTasks": {
+        "Remove markdown symbols from completion descriptions": {
+          "Conceived": "2017-03-06"
+        },
+        "Add a light gray background for the span of the element that currently contains the cursor": {
+          "Conceived": "2017-02-13"
+        },
+        "Add machineId property to telemetry": {
+          "Conceived": "2016-12-19"
+        },
+        "Auto-completion inside attribute values": {
+          "Conceived": "2017-01-30"
+        },
+        "F12 on a custom task's name should go to the UsingTask where it is defined": {
+          "Conceived": "2017-01-30"
+        },
+        "Shift+F12 on a custom task's name should show the custom task's definition and each of the custom task's usages": {
+          "Conceived": "2017-02-09"
+        },
+        "F12 on a standard task's name should open a browser to the task's documentation": {
+          "Conceived": "2017-01-30"
+        },
+        "Shift+F12 on a standard task's name should show each of the standard task's usages": {
+          "Conceived": "2017-02-09"
+        },
+        "F12 on a property reference should show each of the property's definitions": {
+          "Conceived": "2017-01-30"
+        },
+        "Shift+F12 on a property reference/definition should show each of the property's definitions and references": {
+          "Conceived": "2017-02-09"
+        },
+        "F12 on an item reference should go to the item's definition": {
+          "Conceived": "2017-01-30"
+        },
+        "Shift+F12 on an item reference/definition should show each of the item's definitions and references": {
+          "Conceived": "2017-02-09"
+        },
+        "Ctrl+LeftClick on a file url should open the referenced file": {
+          "Conceived": "2017-02-09"
+        },
+        "Create icon for extension": {
+          "Conceived": "2017-01-30"
+        },
+        "Detect 'Debug' and 'Release' folders in file paths, and suggest to replace them with '$(Configuration)'": {
+          "Conceived": "2017-02-09"
+        },
+        "Add errors for non-existing target names inside DependsOn properties": {
+          "Conceived": "2017-04-18"
+        },
+        "F12 on a target name inside a DependsOn property should go to target definition": {
+          "Conceived": "2017-04-18"
+        },
+        "Release version 1.0.0": {
+          "Conceived": "2017-01-30"
+        },
+        "Add C# errors, auto-completion, and hover inside UsingTask's Code element": {
+          "Conceived": "2017-01-30"
+        }
+      },
+      "CompletedTasks": {
+        "Add telemetry and configuration value for turning it off": {
+          "Conceived": "2016-10-18",
+          "Started": "2016-10-18",
+          "Completed": "2016-10-18"
+        },
+        "Release version 0.4.1": {
+          "Conceived": "2016-10-16",
+          "Started": "2016-10-16",
+          "Completed": "2016-10-16"
+        },
+        "Extract common code from this extension and the XML extension for VS Code integration": {
+          "Conceived": "2016-10-14",
+          "Started": "2016-10-14",
+          "Completed": "2016-10-15"
+        },
+        "Add hover to element attributes": {
+          "Conceived": "2016-10-14",
+          "Started": "2016-10-14",
+          "Completed": "2016-10-14"
+        },
+        "Release verison 0.3.1": {
+          "Conceived": "2016-10-14",
+          "Started": "2016-10-14",
+          "Completed": "2016-10-14"
+        },
+        "Add hover for element names": {
+          "Conceived": "2016-10-14",
+          "Started": "2016-10-14",
+          "Completed": "2016-10-14"
+        },
+        "Add descriptions for element and attribute auto-completions": {
+          "Conceived": "2016-10-13",
+          "Started": "2016-10-13",
+          "Completed": "2016-10-14"
+        },
+        "Release version 0.3.0": {
+          "Conceived": "2016-10-13",
+          "Started": "2016-10-13",
+          "Completed": "2016-10-13"
+        },
+        "Auto-completion for attribute names": {
+          "Conceived": "2016-10-07",
+          "Started": "2016-10-07",
+          "Completed": "2016-10-13"
+        },
+        "Auto-completion for child element names": {
+          "Conceived": "2016-10-07",
+          "Started": "2016-10-07",
+          "Completed": "2016-10-13"
+        },
+        "Turn off XML parse errors if XML extension is installed": {
+          "Conceived": "2016-10-07",
+          "Started": "2016-10-07",
+          "Completed": "2016-10-07"
+        },
+        "Format document": {
+          "Conceived": "2016-10-06",
+          "Started": "2016-10-06",
+          "Completed": "2016-10-06"
+        },
+        "Only show MSBuild errors for MSBuild documents (*.proj, *.targets, *.props, etc.)": {
+          "Conceived": "2016-10-05",
+          "Started": "2016-10-05",
+          "Completed": "2016-10-06"
+        },
+        "Show error message": {
+          "Conceived": "2016-10-05",
+          "Started": "2016-10-05",
+          "Completed": "2016-10-05"
+        }
+      }
+    },
+    "YAML Parser": {
+      "Conceived": "2017-01-30",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2017-01-30",
+          "PlannedTasks": {
+            "Add error messages": {
+              "Conceived": "2017-01-30"
+            }
+          }
+        },
+        "C": {
+          "Conceived": "2017-01-30"
+        },
+        "C#": {
+          "Conceived": "2017-01-30"
+        },
+        "Java": {
+          "Conceived": "2017-01-30"
+        },
+        "QubLang": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "YAML VS Code Extension": {
+      "Conceived": "2017-01-30",
+      "PlannedTasks": {
+        "Format document": {
+          "Conceived": "2017-01-30"
+        },
+        "Show error messages": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "Qub Storage": {
+      "Conceived": "2017-01-30"
+    },
+    "Qub Finanace": {
+      "Conceived": "2017-01-30"
+    },
+    "Qub Kitchen": {
+      "Conceived": "2017-09-05"
+    },
+    "C Parser": {
+      "Conceived": "2017-05-29",
+      "Started": "2017-05-29",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2017-05-29",
+          "Started": "2017-05-29",
+          "PlannedTasks": {
+            "Parse preprocessor definitions (like #define and #include)": {
+              "Conceived": "2017-05-31",
+              "Started": "2017-05-31"
+            },
+            "Add error messages": {
+              "Conceived": "2017-05-30"
+            }
+          },
+          "CompletedTasks": {
+            "Move common test functions to Qub.test.ts": {
+              "Conceived": "2017-06-01",
+              "Started": "2017-06-01",
+              "Completed": "2017-06-01"
+            },
+            "Remove qub.CarriageReturnNewLine and just use qub.NewLine": {
+              "Conceived": "2017-06-01",
+              "Started": "2017-06-01",
+              "Completed": "2017-06-01"
+            },
+            "Add startIndex to qub.Token": {
+              "Conceived": "2017-05-31",
+              "Started": "2017-05-31",
+              "Completed": "2017-06-01"
+            },
+            "Write Lexer and tests": {
+              "Conceived": "2017-05-29",
+              "Started": "2017-05-30",
+              "Completed": "2017-05-31"
+            },
+            "Write lexes and tests": {
+              "Conceived": "2017-05-29",
+              "Started": "2017-05-29",
+              "Completed": "2017-05-30"
+            }
+          }
+        }
+      }
+    },
+    "Java Parser": {
+      "Conceived": "2017-01-30",
+      "Started": "2017-05-29",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2017-01-30",
+          "Started": "2017-05-29",
+          "PlannedTasks": {
+            "Write Lexer and tests": {
+              "Conceived": "2017-05-29",
+              "Started": "2017-05-30"
+            },
+            "Add error messages": {
+              "Conceived": "2017-01-30"
+            }
+          },
+          "CompletedTasks": {
+            "Write lexes and tests": {
+              "Conceived": "2017-05-29",
+              "Started": "2017-05-29",
+              "Completed": "2017-05-30"
+            }
+          }
+        },
+        "C": {
+          "Conceived": "2017-01-30"
+        },
+        "C#": {
+          "Conceived": "2017-01-30"
+        },
+        "Java": {
+          "Conceived": "2017-01-30"
+        },
+        "QubLang": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "Java VS Code Extension": {
+      "Conceived": "2017-01-30",
+      "PlannedTasks": {
+        "Show error messages": {
+          "Conceived": "2017-01-30"
+        },
+        "Format document": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "Read C++ Memory Model Document": {
+      "Conceived": "2017-05-19",
+      "Started": "2017-05-19"
+    },
+    "QubLib": {
+      "Conceived": "2017-05-18",
+      "Started": "2017-05-18",
+      "PlannedTasks": {
+        "C": {
+          "Conceived": "2017-05-18",
+          "Started": "2017-05-18",
+          "PlannedTasks": {
+            "Create Array data structure": {
+              "Conceived": "2017-05-18",
+              "Started": "2017-05-18"
+            },
+            "Create LinkedList data structure": {
+              "Conceived": "2017-05-18"
+            }
+          },
+          "CompletedTasks": {
+            "Create ArrayList data structure": {
+              "Conceived": "2017-05-18",
+              "Started": "2017-05-18",
+              "Completed": "2017-05-18"
+            }
+          }
+        },
+        "Typescript": {
+          "Conceived": "2017-05-18",
+          "Started": "2017-05-18",
+          "PlannedTasks": {
+            "Create Qub.ts": {
+              "Conceived": "2017-05-18"
+            },
+            "Move ArrayList data structure to Qub.ts": {
+              "Conceived": "2017-05-18"
+            },
+            "Create Array data structure": {
+              "Conceived": "2017-05-18"
+            },
+            "Create LinkedList data structure": {
+              "Conceived": "2017-05-18"
+            }
+          },
+          "CompletedTasks": {
+            "Create ArrayList data structure": {
+              "Conceived": "2017-05-18",
+              "Started": "2017-05-18",
+              "Completed": "2017-05-18"
+            }
+          }
+        }
+      },
+      "CompletedTasks": {}
+    },
+    "XML VS Code Extension": {
+      "Conceived": "2016-10-28",
+      "Started": "2016-10-28",
+      "PlannedTasks": {
+        "Convert attributes to child element command": {
+          "Conceived": "2017-01-30",
+          "Started": "2017-05-25"
+        },
+        "Add hover text for DOCTYPE tag values": {
+          "Conceived": "2017-01-30"
+        },
+        "Auto-completion for DOCTYPE tag values": {
+          "Conceived": "2017-01-30"
+        },
+        "Convert child element to attribute command": {
+          "Conceived": "2017-01-30"
+        },
+        "Validate based on DOCTYPE schema": {
+          "Conceived": "2017-01-30"
+        }
+      },
+      "CompletedTasks": {
+        "Simplify FormatContext and remove FormatOptions": {
+          "Conceived": "2017-05-25",
+          "Started": "2017-05-25",
+          "Completed": "2017-05-25"
+        },
+        "Add extension settings for adjusting format options": {
+          "Conceived": "2017-01-30",
+          "Started": "2017-05-25",
+          "Completed": "2017-05-25"
+        },
+        "Fix bug where pressing enter in an element that already has a newline in it": {
+          "Conceived": "2017-04-24",
+          "Started": "2017-04-24",
+          "Abandoned": "2017-04-25",
+          "Notes": "I decided to not do any special newline/whitespace auto-adding because in VS Code the best way to do that is to use a TextMate grammar, and I do want to do that. Everything else was just becoming hacky."
+        },
+        "Add whitespace to inserted comment closing sequence (' -->' instead of '-->')": {
+          "Conceived": "2017-02-13",
+          "Started": "2017-04-23",
+          "Completed": "2017-04-23"
+        },
+        "Insert closing comment sequence when comment start sequence is typed and comment contains start sequence (such as '<!-- <!-- -->')": {
+          "Conceived": "2017-02-13",
+          "Started": "2017-04-22",
+          "Completed": "2017-04-22"
+        },
+        "Add extra newline and indentation when newline added between start and end tag with no contents (<a></a> -> <a>\n  \n</a>)": {
+          "Conceived": "2017-02-13",
+          "Started": "2017-04-21",
+          "Completed": "2017-04-22"
+        },
+        "Release XML VS Code extension version 1.0.0": {
+          "Conceived": "2017-01-30",
+          "Started": "2017-02-08",
+          "Completed": "2017-02-08"
+        },
+        "Make format use selected tab type and size": {
+          "Conceived": "2017-02-08",
+          "Started": "2017-02-08",
+          "Completed": "2017-02-08"
+        },
+        "Make format use selected newline": {
+          "Conceived": "2017-02-08",
+          "Started": "2017-02-08",
+          "Completed": "2017-02-08"
+        },
+        "Create icon for extension": {
+          "Conceived": "2017-01-30",
+          "Started": "2017-02-08",
+          "Completed": "2017-02-08"
+        },
+        "Add 'XML Specification' link in tooltips": {
+          "Conceived": "2017-02-08",
+          "Started": "2017-02-08",
+          "Completed": "2017-02-08"
+        },
+        "Add 'Apply Fix' line to error messages": {
+          "Conceived": "2017-01-11",
+          "Abandoned": "2017-02-08",
+          "Notes": "Can't do this until VS Code supports urls in Diagnostic objects."
+        },
+        "Add hyperlinks for more information about error messages": {
+          "Conceived": "2017-01-30",
+          "Started": "2017-02-08",
+          "Abandoned": "2017-02-08",
+          "Notes": "Can't do this until VS Code supports urls in Diagnostic objects."
+        },
+        "Release version 0.4.1": {
+          "Conceived": "2017-02-08",
+          "Started": "2017-02-08",
+          "Completed": "2017-02-08"
+        },
+        "Close comment when '<!--' is typed": {
+          "Conceived": "2017-02-08",
+          "Started": "2017-02-08",
+          "Completed": "2017-02-08"
+        },
+        "Close CDATA when '<![CDATA[' is typed": {
+          "Conceived": "2017-02-08",
+          "Started": "2017-02-08",
+          "Completed": "2017-02-08"
+        },
+        "Release version 0.4.0": {
+          "Conceived": "2017-01-30",
+          "Started": "2017-02-08",
+          "Completed": "2017-02-08"
+        },
+        "Add end tag when start tag's right angle bracket is typed": {
+          "Conceived": "2016-10-28",
+          "Started": "2017-02-07",
+          "Completed": "2017-02-08"
+        },
+        "Add telemetry to determine how many people use Declarations": {
+          "Conceived": "2017-02-01",
+          "Started": "2017-02-02",
+          "Completed": "2017-02-02"
+        },
+        "Add telemetry to determine how many people use DOCTYPEs": {
+          "Conceived": "2016-10-21",
+          "Started": "2017-02-02",
+          "Completed": "2017-02-02"
+        },
+        "Release version 0.3.3": {
+          "Conceived": "2017-02-02",
+          "Started": "2017-02-02",
+          "Completed": "2017-02-02"
+        },
+        "Make errors go away for documents where the language id is changed after it is opened (such as untitled new documents)": {
+          "Conceived": "2017-02-02",
+          "Started": "2017-02-02",
+          "Completed": "2017-02-02"
+        },
+        "Release version 0.3.2": {
+          "Conceived": "2017-02-02",
+          "Started": "2017-02-02",
+          "Completed": "2017-02-02"
+        },
+        "Release version 0.3.1": {
+          "Conceived": "2017-01-30",
+          "Started": "2017-02-01",
+          "Completed": "2017-02-01"
+        },
+        "Add declaration attribute value completions": {
+          "Conceived": "2017-01-30",
+          "Started": "2017-01-31",
+          "Completed": "2017-02-01"
+        },
+        "Add declaration attribute name completions": {
+          "Conceived": "2017-01-30",
+          "Started": "2017-01-30",
+          "Completed": "2017-01-31"
+        },
+        "Add declaration name completion": {
+          "Conceived": "2017-01-31",
+          "Started": "2017-01-31",
+          "Completed": "2017-01-31"
+        },
+        "Add hover message for declaration standalone attribute": {
+          "Conceived": "2017-01-13",
+          "Started": "2017-01-19",
+          "Completed": "2017-01-19"
+        },
+        "Add hover message for declaration encoding attribute": {
+          "Conceived": "2017-01-13",
+          "Started": "2017-01-19",
+          "Completed": "2017-01-19"
+        },
+        "Add hover message for declaration version attribute": {
+          "Conceived": "2017-01-13",
+          "Started": "2017-01-19",
+          "Completed": "2017-01-19"
+        },
+        "Add hover message for declaration name": {
+          "Conceived": "2017-01-13",
+          "Started": "2017-01-19",
+          "Completed": "2017-01-19"
+        },
+        "Fix format document": {
+          "Conceived": "2017-01-19",
+          "Started": "2017-01-19",
+          "Completed": "2017-01-19"
+        },
+        "Add error messages for UnrecognizedTags": {
+          "Conceived": "2017-01-15",
+          "Started": "2017-01-15",
+          "Completed": "2017-01-15"
+        },
+        "Add error message for incomplete DOCTYPE tag name": {
+          "Conceived": "2017-01-13",
+          "Started": "2017-01-13",
+          "Completed": "2017-01-13"
+        },
+        "Add machineId property to telemetry": {
+          "Conceived": "2016-12-19",
+          "Started": "2017-01-13",
+          "Completed": "2017-01-13"
+        },
+        "Integrate XML parser changes into VS Code extension": {
+          "Conceived": "2017-01-13",
+          "Started": "2017-01-13",
+          "Completed": "2017-01-13"
+        },
+        "Add telemetry and configuration value for turning it off": {
+          "Conceived": "2016-10-18",
+          "Started": "2016-10-18",
+          "Completed": "2016-10-21"
+        },
+        "Release version 0.2.6": {
+          "Conceived": "2016-10-16",
+          "Started": "2016-10-16",
+          "Completed": "2016-10-16"
+        },
+        "Provide auto-completion for declaration tag attribute values": {
+          "Conceived": "2016-09-28",
+          "Started": "2016-09-28",
+          "Completed": "2016-09-28"
+        },
+        "Publish extension": {
+          "Conceived": "2016-09-20",
+          "Started": "2016-09-20",
+          "Completed": "2016-09-20"
+        },
+        "Format document": {
+          "Conceived": "2016-09-18",
+          "Started": "2016-09-18",
+          "Completed": "2016-09-19"
+        },
+        "Write README.md file": {
+          "Conceived": "2016-09-18",
+          "Started": "2016-09-18",
+          "Completed": "2016-09-18"
+        },
+        "Auto-completion for declaration tag attribute names": {
+          "Conceived": "2016-09-11",
+          "Started": "2016-09-11",
+          "Completed": "2016-09-12"
+        },
+        "Auto-completion for declaration tag name": {
+          "Conceived": "2016-09-12",
+          "Started": "2016-09-12",
+          "Completed": "2016-09-12"
+        },
+        "Add hover text for declaration tag's attributes": {
+          "Conceived": "2016-09-09",
+          "Started": "2016-09-09",
+          "Completed": "2016-09-11"
+        },
+        "Auto-completion for end tag names": {
+          "Conceived": "2016-09-06",
+          "Started": "2016-09-06",
+          "Completed": "2016-09-09"
+        },
+        "Show error messages": {
+          "Conceived": "2016-09-05",
+          "Started": "2016-09-05",
+          "Completed": "2016-09-05"
+        }
+      }
+    },
+    "XML Parser": {
+      "Conceived": "2017-01-30",
+      "Started": "2017-01-30",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2017-01-30",
+          "Started": "2017-01-30",
+          "PlannedTasks": {
+            "Format should be able to align newline attributes with the first attribute of the tag": {
+              "Conceived": "2017-05-18",
+              "Started": "2017-05-18"
+            },
+            "Format should do a better job with multi-line CommentTokens": {
+              "Conceived": "2017-01-30"
+            },
+            "Parse and understand DOCTYPE tag definitions": {
+              "Conceived": "2017-01-30",
+              "Notes": {
+                "Wait until": "I get more data about how many users actually use DOCTYPE tags"
+              }
+            },
+            "Add DOCTYPE validation errors": {
+              "Conceived": "2017-01-30",
+              "Notes": {
+                "Wait until": "I get more data about how many users actually use DOCTYPE tags"
+              }
+            },
+            "Add DOCTYPE validation auto-completions": {
+              "Conceived": "2016-12-22",
+              "Notes": {
+                "Wait until": "I get more data about how many users actually use DOCTYPE tags"
+              }
+            },
+            "Dynamically learn an XML document's schema and provide auto-completions based on the dynamic schema": {
+              "Conceived": "2017-01-30"
+            }
+          },
+          "CompletedTasks": {
+            "Format should update leading whitespace according to indent options and should remove trailing whitespace": {
+              "Conceived": "2017-02-13",
+              "Started": "2017-05-18",
+              "Completed": "2017-05-18"
+            },
+            "Add error messages for non-existing expected Whitespace": {
+              "Conceived": "2017-01-11",
+              "Started": "2017-02-02",
+              "Completed": "2017-02-02"
+            },
+            "Add namespace support": {
+              "Conceived": "2017-01-30",
+              "Abandoned": "2017-02-02",
+              "Notes": {
+                "Abandoned reasoning": "I don't really have a good idea of what this really means, so I'm not going to do it for now."
+              }
+            },
+            "Remove XML.Lexer dependency on basic.Tokenizer": {
+              "Conceived": "2017-01-13",
+              "Started": "2017-02-02",
+              "Abandoned": "2017-02-02",
+              "Notes": {
+                "Abandoned reasoning": "I decided to not do this task because it is valuable to have multi-character basic tokens combined before they hit a language specific Lexer (such as letters, numbers, newlines [\n or \r\n], or whitespace)."
+              }
+            },
+            "Fix declaration must be first segment error message": {
+              "Conceived": "2017-02-01",
+              "Started": "2017-02-02",
+              "Completed": "2017-02-02"
+            },
+            "Fix not finding comment closing sequence bug": {
+              "Conceived": "2017-02-01",
+              "Started": "2017-02-02",
+              "Completed": "2017-02-02",
+              "Notes": {
+                "Example file": "C:/Program Files (x86)/MSBuild/14.0/Microsoft.Common.props",
+                "Root cause": "Ended up being an issue with quotes inside of the comment. Because I made QuotedString an XML Lex, if a unclosed QuotedString was inside of a Comment (which was a segment), then the QuotedString would take the comment's closing sequence (-->), which would make the comment think it wasn't closed. This happened a lot when apostrophes were in the comment."
+              }
+            },
+            "Make XML.Document extend language.Document": {
+              "Conceived": "2017-01-13",
+              "Started": "2017-01-13",
+              "Completed": "2017-01-13"
+            },
+            "Add error messages for parsing": {
+              "Conceived": "2016-12-23",
+              "Started": "2017-01-10",
+              "Completed": "2017-01-12"
+            },
+            "Add error messages for tokenizing": {
+              "Conceived": "2016-12-23",
+              "Started": "2017-01-06",
+              "Completed": "2017-01-10"
+            },
+            "Read XML specification and create tasks for missing functionality (Aim for 100% conformance)": {
+              "Conceived": "2016-12-22",
+              "Started": "2016-12-30",
+              "Completed": "2017-01-06"
+            },
+            "Support ProcessingInstructions": {
+              "Conceived": "2016-12-14",
+              "Started": "2017-01-05",
+              "Completed": "2017-01-05"
+            },
+            "Don't erase tokens when formatting (i.e. - tokens between forward slash and right angle bracket in empty tags)": {
+              "Conceived": "2016-12-30",
+              "Started": "2016-12-30",
+              "Completed": "2016-12-30"
+            },
+            "Format should not remove newlines": {
+              "Conceived": "2016-12-30",
+              "Started": "2016-12-30",
+              "Completed": "2016-12-30"
+            },
+            "Convert old test cases to new test cases": {
+              "Conceived": "2016-12-23",
+              "Started": "2016-12-23",
+              "Completed": "2016-12-30"
+            },
+            "Create parse() function": {
+              "Conceived": "2016-12-22",
+              "Started": "2016-12-22",
+              "Completed": "2016-12-23"
+            },
+            "Add toString() method to XML.Document class that will output the text of the document": {
+              "Conceived": "2016-10-21",
+              "Started": "2016-12-22",
+              "Completed": "2016-12-22"
+            },
+            "Change Tokenizer to return Tokens (Tags, Comments, Text, and NewLines)": {
+              "Conceived": "2016-12-10",
+              "Started": "2016-12-11",
+              "Completed": "2016-12-22"
+            },
+            "Create Document class": {
+              "Conceived": "2016-12-22",
+              "Started": "2016-12-22",
+              "Completed": "2016-12-22"
+            },
+            "Create Element class": {
+              "Conceived": "2016-12-22",
+              "Started": "2016-12-22",
+              "Completed": "2016-12-22"
+            },
+            "Add CDATA parsing support to new Tokenizer": {
+              "Conceived": "2016-12-18",
+              "Started": "2016-12-22",
+              "Completed": "2016-12-22"
+            },
+            "Add Comment parsing support to new Tokenizer": {
+              "Conceived": "2016-12-18",
+              "Started": "2016-12-19",
+              "Completed": "2016-12-21"
+            },
+            "Add DOCTYPE parsing support to new Tokenizer": {
+              "Conceived": "2016-12-18",
+              "Started": "2016-12-19",
+              "Completed": "2016-12-19"
+            },
+            "Add EndTag parsing support to new Tokenizer": {
+              "Conceived": "2016-12-18",
+              "Started": "2016-12-18",
+              "Completed": "2016-12-18"
+            },
+            "Change QuotedString to be a Token": {
+              "Conceived": "2016-12-18",
+              "Started": "2016-12-18",
+              "Completed": "2016-12-18"
+            },
+            "Change name to be a Token": {
+              "Conceived": "2016-12-18",
+              "Started": "2016-12-18",
+              "Completed": "2016-12-18"
+            },
+            "Add Declaration parsing support to new Tokenizer": {
+              "Conceived": "2016-12-18",
+              "Started": "2016-12-18",
+              "Completed": "2016-12-18"
+            },
+            "Change Token to contain basic Tokens instead of text": {
+              "Conceived": "2016-12-10",
+              "Started": "2016-12-10",
+              "Completed": "2016-12-10"
+            },
+            "Support numbers in attribute names": {
+              "Conceived": "2016-10-16",
+              "Started": "2016-10-16",
+              "Completed": "2016-10-16"
+            },
+            "Support underscores in attribute names": {
+              "Conceived": "2016-10-16",
+              "Started": "2016-10-16",
+              "Completed": "2016-10-16"
+            },
+            "Support colons in attribute names": {
+              "Conceived": "2016-10-16",
+              "Started": "2016-10-16",
+              "Completed": "2016-10-16"
+            },
+            "Support numbers in tag names (create TokenGroups?)": {
+              "Conceived": "2016-10-15",
+              "Started": "2016-10-15",
+              "Completed": "2016-10-16"
+            },
+            "Support colons in tag names": {
+              "Conceived": "2016-10-15",
+              "Started": "2016-10-15",
+              "Completed": "2016-10-16"
+            },
+            "Fix bug where OnError is not thinking its the last child element in a Target element": {
+              "Conceived": "2016-10-14",
+              "Started": "2016-10-14",
+              "Completed": "2016-10-14"
+            },
+            "Fix declaration attribute auto-completion whenn right quesiton mark doesn't exist": {
+              "Conceived": "2016-10-06",
+              "Started": "2016-10-06",
+              "Completed": "2016-10-07"
+            },
+            "Make declaration encoding value case-insensitive": {
+              "Conceived": "2016-10-03",
+              "Started": "2016-10-03",
+              "Completed": "2016-10-03"
+            },
+            "Fix declaration tag's attribute auto-completion": {
+              "Conceived": "2016-09-26",
+              "Started": "2016-09-26",
+              "Completed": "2016-09-28"
+            },
+            "Add error messages for missing required declaration tag attributes": {
+              "Conceived": "2016-09-25",
+              "Started": "2016-09-25",
+              "Completed": "2016-09-25"
+            },
+            "Show error message if DOCTYPE Element is child of ParentElement": {
+              "Conceived": "2016-09-22",
+              "Started": "2016-09-22",
+              "Completed": "2016-09-22"
+            },
+            "Show error message if DeclarationElement is child of ParentElement": {
+              "Conceived": "2016-09-22",
+              "Started": "2016-09-22",
+              "Completed": "2016-09-22"
+            },
+            "Fix formatting Document objects that contain TextTokens with newline (don't leak newlines during formatting)": {
+              "Conceived": "2016-09-20",
+              "Started": "2016-09-20",
+              "Completed": "2016-09-21"
+            },
+            "Refactor XML Tokenizer.next() method": {
+              "Conceived": "2016-09-20",
+              "Started": "2016-09-20",
+              "Completed": "2016-09-20"
+            },
+            "Format document": {
+              "Conceived": "2016-09-18",
+              "Started": "2016-09-18",
+              "Completed": "2016-09-19"
+            },
+            "Get attribute at character index": {
+              "Conceived": "2016-09-11",
+              "Started": "2016-09-11",
+              "Completed": "2016-09-11"
+            },
+            "Get element/tag at character index": {
+              "Conceived": "2016-09-06",
+              "Started": "2016-09-06",
+              "Completed": "2016-09-09"
+            },
+            "Add PositionContext class": {
+              "Conceived": "2016-09-05",
+              "Started": "2016-09-05",
+              "Completed": "2016-09-05"
+            },
+            "Add document parser": {
+              "Conceived": "2016-09-04",
+              "Started": "2016-09-04",
+              "Completed": "2016-09-04"
+            },
+            "Convert existing parse() function to Tokenizer class": {
+              "Conceived": "2016-09-03",
+              "Started": "2016-09-03",
+              "Completed": "2016-09-04"
+            },
+            "Parse text values": {
+              "Conceived": "2016-09-03",
+              "Started": "2016-09-03",
+              "Completed": "2016-09-03"
+            },
+            "Add error messages": {
+              "Conceived": "2016-08-29",
+              "Started": "2016-08-29",
+              "Completed": "2016-09-03"
+            },
+            "Add DOCTYPE tag support": {
+              "Conceived": "2016-08-30",
+              "Started": "2016-08-30",
+              "Completed": "2016-08-30"
+            },
+            "Add CDATA tag support": {
+              "Conceived": "2016-08-30",
+              "Started": "2016-08-30",
+              "Completed": "2016-08-30"
+            }
+          }
+        },
+        "C": {
+          "Conceived": "2017-01-30"
+        },
+        "C#": {
+          "Conceived": "2017-01-30"
+        },
+        "C++": {
+          "Conceived": "2017-01-30"
+        },
+        "Java": {
+          "Conceived": "2017-01-30"
+        },
+        "QubLang": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "Markdown Parser": {
+      "Conceived": "2017-01-30",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2017-01-30"
+        },
+        "C": {
+          "Conceived": "2017-01-30"
+        },
+        "C#": {
+          "Conceived": "2017-01-30"
+        },
+        "Java": {
+          "Conceived": "2017-01-30"
+        },
+        "QubLang": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "Create RangeMap data structure": {
+      "Conceived": "2017-02-01",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2017-02-01"
+        }
+      },
+      "Notes": {
+        "Idea": "Allow a map/dictionary data structure that can store and retrieve values based on a range, instead of a single value."
+      }
+    },
+    "Text Edits VS Code extension": {
+      "Conceived": "2016-12-01",
+      "Started": "2016-12-01",
+      "PlannedTasks": {
+        "Add command for escaping backslashes in current selection": {
+          "Conceived": "2017-03-07",
+          "Notes": {
+            "Example": "hello\there -> hello\\there"
+          }
+        },
+        "Add command for title casing current selection": {
+          "Conceived": "2017-01-30"
+        },
+        "Add command for sentence casing current selection": {
+          "Conceived": "2017-01-30"
+        },
+        "Add command for camel casing current selection": {
+          "Conceived": "2017-01-30"
+        },
+        "Add command for generating GUIDs": {
+          "Conceived": "2017-01-30"
+        },
+        "Add command to resolve XML character entities in entire document": {
+          "Conceived": "2016-12-14",
+          "Notes": {
+            "Specification": "https://www.w3.org/TR/REC-xml/#syntax"
+          }
+        },
+        "Add command to resolve XML Character entities in selection": {
+          "Conceived": "2016-12-14",
+          "Notes": {
+            "Specification": "https://www.w3.org/TR/REC-xml/#syntax"
+          }
+        }
+      },
+      "CompletedTasks": {
+        "Create initial extension framework": {
+          "Conceived": "2016-12-01",
+          "Started": "2016-12-01",
+          "Completed": "2016-12-01"
+        },
+        "Add command palette command for uppercasing/lowercasing current selection": {
+          "Conceived": "2016-11-29",
+          "Started": "2016-12-01",
+          "Completed": "2016-12-01"
+        },
+        "Add shortcut command for uppercasing/lowercasing current selection": {
+          "Conceived": "2016-11-29",
+          "Started": "2016-12-01",
+          "Completed": "2016-12-01"
+        },
+        "Add editor context menu command for uppercasing/lowercasing current selection": {
+          "Conceived": "2016-11-29",
+          "Started": "2016-12-01",
+          "Completed": "2016-12-01"
+        }
+      }
+    },
+    "Solution File (*.sln) Parser": {
+      "Conceived": "2017-01-13",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2017-01-13",
+          "PlannedTasks": {
+            "Add syntax highlighting": {
+              "Conceived": "2017-02-08",
+              "Notes": "Start simple. Maybe base the coloring on the current XML coloring"
+            }
+          }
+        }
+      }
+    },
+    "C/C++ Parser": {
+      "Conceived": "2017-01-30",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2017-01-30",
+          "PlannedTasks": {
+            "Add error messages": {
+              "Conceived": "2017-01-30"
+            }
+          }
+        },
+        "C": {
+          "Conceived": "2017-01-30"
+        },
+        "C#": {
+          "Conceived": "2017-01-30"
+        },
+        "Java": {
+          "Conceived": "2017-01-30"
+        },
+        "QubLang": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "C/C++ VS Code Extension": {
+      "Conceived": "2017-01-30",
+      "PlannedTasks": {
+        "Show error messages": {
+          "Conceived": "2017-01-30"
+        },
+        "Format document": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "Batch Parser": {
+      "Conceived": "2016-11-29",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2016-11-29",
+          "PlannedTasks": {
+            "Error for file paths to files that don't exist": {
+              "Conceived": "2016-11-29"
+            }
+          }
+        },
+        "C": {
+          "Conceived": "2016-11-29"
+        },
+        "C#": {
+          "Conceived": "2016-11-29"
+        },
+        "Java": {
+          "Conceived": "2016-11-29"
+        },
+        "QubLang": {
+          "Conceived": "2016-11-29"
+        }
+      },
+      "Notes": {
+        "Command-line reference": "https://technet.microsoft.com/en-us/library/bb490890.aspx"
+      }
+    },
+    "Batch VS Code Extension": {
+      "Conceived": "2016-11-29",
+      "PlannedTasks": {
+        "F12 on a file path will open the file if it is not an executable or assembly (exe or dll)": {
+          "Conceived": "2016-11-29"
+        }
+      }
+    },
+    "Groovy Parser": {
+      "Conceived": "2017-01-30",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2017-01-30"
+        },
+        "C": {
+          "Conceived": "2017-01-30"
+        },
+        "C#": {
+          "Conceived": "2017-01-30"
+        },
+        "Java": {
+          "Conceived": "2017-01-30"
+        },
+        "QubLang": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "Groovy VS Code Extension": {
+      "Conceived": "2017-01-30"
+    },
+    "SmartThings Groovy VS Code Extension": {
+      "Conceived": "2017-01-30"
+    },
+    "Markdown VS Code Extension": {
+      "Conceived": "2017-01-30"
+    },
+    "Markdown Generator": {
+      "Conceived": "2017-01-30",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2017-01-30"
+        },
+        "C": {
+          "Conceived": "2017-01-30"
+        },
+        "C#": {
+          "Conceived": "2017-01-30"
+        },
+        "Java": {
+          "Conceived": "2017-01-30"
+        },
+        "QubLang": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "JSON Schema Parser": {
+      "Conceived": "2017-01-30",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2017-01-30",
+          "PlannedTasks": {
+            "Add errors for broken $ref links": {
+              "Conceived": "2017-01-30"
+            }
+          }
+        },
+        "C": {
+          "Conceived": "2017-01-30"
+        },
+        "C#": {
+          "Conceived": "2017-01-30"
+        },
+        "Java": {
+          "Conceived": "2017-01-30"
+        },
+        "QubLang": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "JSON Schema VS Code Extension": {
+      "Conceived": "2017-01-30"
+    },
+    "QubLang": {
+      "Conceived": "2017-01-30",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2017-01-30"
+        },
+        "C": {
+          "Conceived": "2017-01-30"
+        },
+        "C#": {
+          "Conceived": "2017-01-30"
+        },
+        "Java": {
+          "Conceived": "2017-01-30"
+        },
+        "QubLang": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "JSON Generator": {
+      "Conceived": "2017-01-30",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2017-01-30"
+        },
+        "C": {
+          "Conceived": "2017-01-30"
+        },
+        "C#": {
+          "Conceived": "2017-01-30"
+        },
+        "Java": {
+          "Conceived": "2017-01-30"
+        },
+        "QubLang": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "XML Generator": {
+      "Conceived": "2017-01-30",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2017-01-30"
+        },
+        "C": {
+          "Conceived": "2017-01-30"
+        },
+        "C#": {
+          "Conceived": "2017-01-30"
+        },
+        "Java": {
+          "Conceived": "2017-01-30"
+        },
+        "QubLang": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "YAML Generator": {
+      "Conceived": "2017-01-30",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2017-01-30"
+        },
+        "C": {
+          "Conceived": "2017-01-30"
+        },
+        "C#": {
+          "Conceived": "2017-01-30"
+        },
+        "Java": {
+          "Conceived": "2017-01-30"
+        },
+        "QubLang": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "HTML Parser": {
+      "Conceived": "2017-01-30",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2017-01-30"
+        },
+        "C": {
+          "Conceived": "2017-01-30"
+        },
+        "C#": {
+          "Conceived": "2017-01-30"
+        },
+        "Java": {
+          "Conceived": "2017-01-30"
+        },
+        "QubLang": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "HTML Generator": {
+      "Conceived": "2017-01-30",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2017-01-30"
+        },
+        "C": {
+          "Conceived": "2017-01-30"
+        },
+        "C#": {
+          "Conceived": "2017-01-30"
+        },
+        "Java": {
+          "Conceived": "2017-01-30"
+        },
+        "QubLang": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "HTML VS Code Extension": {
+      "Conceived": "2017-01-30"
+    },
+    "Javascript Parser": {
+      "Conceived": "2017-01-30",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2017-01-30"
+        },
+        "C": {
+          "Conceived": "2017-01-30"
+        },
+        "C#": {
+          "Conceived": "2017-01-30"
+        },
+        "Java": {
+          "Conceived": "2017-01-30"
+        },
+        "QubLang": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "Javascript Generator": {
+      "Conceived": "2017-01-30",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2017-01-30"
+        },
+        "C": {
+          "Conceived": "2017-01-30"
+        },
+        "C#": {
+          "Conceived": "2017-01-30"
+        },
+        "Java": {
+          "Conceived": "2017-01-30"
+        },
+        "QubLang": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "Javascript VS Code Extension": {
+      "Conceived": "2017-01-30"
+    },
+    "C# Parser": {
+      "Conceived": "2017-01-30"
+    },
+    "Travis-CI Parser": {
+      "Conceived": "2017-01-30"
+    },
+    "Travis-CI VS Code Extension": {
+      "Conceived": "2017-01-30"
+    },
+    "Grunt Parser": {
+      "Conceived": "2017-01-30"
+    },
+    "Grunt VS Code Extension": {
+      "Conceived": "2017-01-30"
+    },
+    "TraceRoute Console application": {
+      "Conceived": "2017-01-30",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2017-01-30"
+        },
+        "C": {
+          "Conceived": "2017-01-30"
+        },
+        "C#": {
+          "Conceived": "2017-01-30"
+        },
+        "Java": {
+          "Conceived": "2017-01-30"
+        },
+        "QubLang": {
+          "Conceived": "2017-01-30"
+        }
+      }
+    },
+    "TextMate Language (tmLanguage) Parser": {
+      "Conceived": "2016-10-21",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2016-10-21"
+        },
+        "C": {
+          "Conceived": "2016-10-21"
+        },
+        "C#": {
+          "Conceived": "2016-10-21"
+        },
+        "Java": {
+          "Conceived": "2016-10-21"
+        },
+        "QubLang": {
+          "Conceived": "2016-10-21"
+        }
+      }
+    },
+    "TextMate Language (tmLanguage) VS Code Extension": {
+      "Conceived": "2017-01-30"
+    },
+    "Qub Music": {
+      "Conceived": "2016-10-21",
+      "PlannedTasks": {
+        "Java": {
+          "Conceived": "2016-10-21",
+          "PlannedTasks": {
+            "Play/show songs/videos from several sources (Soundcloud, local hard drive, remote devices, YouTube, etc.)": {
+              "Conceived": "2016-10-21",
+              "PlannedTasks": {
+                "Add local file support": {
+                  "Conceived": "2016-10-21"
+                },
+                "Add Soundcloud support": {
+                  "Conceived": "2016-10-21"
+                },
+                "Add Bandcamp support": {
+                  "Conceived": "2017-04-07"
+                }
+              }
+            }
+          }
+        },
+        "C": {
+          "Conceived": "2016-10-21"
+        },
+        "C#": {
+          "Conceived": "2016-10-21"
+        },
+        "QubLang": {
+          "Conceived": "2016-10-21"
+        }
+      }
+    },
+    "Qub Browser": {
+      "Conceived": "2016-10-21",
+      "PlannedTasks": {
+        "QubLang": {
+          "Conceived": "2016-10-21",
+          "PlannedTasks": {
+            "Cache DNS entries (host names to ip addresses) so that if a DNS server isn't responding, you can fallback to a previous ip address": {
+              "Conceived": "2016-10-21"
+            }
+          }
+        }
+      }
+    },
+    "Powershell Parser": {
+      "Conceived": "2016-11-29"
+    },
+    "Powershell VS Code Extension": {
+      "Conceived": "2016-11-29",
+      "PlannedTasks": {
+        "F12 on function name goes to function definition": {
+          "Conceived": "2016-11-29"
+        }
+      }
+    },
+    "Virtual Machine VS Code Extension": {
+      "Conceived": "2016-12-07",
+      "PlannedTasks": {
+        "Allow users to add virtual machines to the extension's view": {
+          "Conceived": "2016-12-07"
+        },
+        "Get the current status of the registered virtual machines": {
+          "Conceived": "2016-12-07"
+        }
+      }
+    },
+    "Ibiza Portal SDK VS Code Extension": {
+      "Conceived": "2016-12-19",
+      "PlannedTasks": {
+        "Add hover text and documentation links for elements": {
+          "Conceived": "2016-12-19"
+        }
+      }
+    },
+    "CSS Parser": {
+      "Conceived": "2016-12-19"
+    },
+    "Qub Draw": {
+      "Conceived": "2016-12-19",
+      "PlannedTasks": {
+        "Draw boxes and lines on a surface of infinite size for documenting an information structure": {
+          "Conceived": "2016-12-19"
+        }
+      }
+    },
+    "Bond File (*.bond) Parser": {
+      "Conceived": "2017-01-13",
+      "Notes": {
+        "Documentation URL": "https://microsoft.github.io/bond"
+      }
+    },
+    "JSON Parser": {
+      "Conceived": "2016-08-29",
+      "PlannedTasks": {
+        "Typescript": {
+          "Conceived": "2016-08-29",
+          "PlannedTasks": {
+            "Read JSON specification and find issues with current implementation (Aim for 100% conformance)": {
+              "Conceived": "2016-12-22"
+            },
+            "Add json.ParseOptions interface that adds option to enable/disable support for JSON comments": {
+              "Conceived": "2016-12-22"
+            },
+            "Add json.FormatOptions interface that allows caller to specify different properties of the resulting formatted text (minimal, indent string, opening brackets on same or next line, etc.)": {
+              "Conceived": "2016-12-22"
+            },
+            "Add hover text when mouse hovers over '$schema' properties": {
+              "Conceived": "2016-12-19"
+            },
+            "F12 on JSON schema reference navigates to reference destination": {
+              "Conceived": "2017-02-03"
+            },
+            "Validate based on '$schema' property": {
+              "Conceived": "2017-01-30"
+            }
+          },
+          "CompletedTasks": {
+            "Simplify JSON Token and Segment hierarchies": {
+              "Conceived": "2016-12-10",
+              "Started": "2016-12-10",
+              "Completed": "2016-12-10"
+            },
+            "Format document": {
+              "Conceived": "2016-12-02",
+              "Started": "2016-12-02",
+              "Completed": "2016-12-09"
+            },
+            "Add support for block-comments (/**/)": {
+              "Conceived": "2016-11-29",
+              "Started": "2016-12-02",
+              "Completed": "2016-12-02"
+            },
+            "Add support for line-comments (//)": {
+              "Conceived": "2016-11-29",
+              "Started": "2016-11-29",
+              "Completed": "2016-12-02"
+            },
+            "Convert Whitespace to basic-token group": {
+              "Conceived": "2016-11-28",
+              "Started": "2016-11-28",
+              "Completed": "2016-11-29"
+            },
+            "Convert Number to basic-token group": {
+              "Conceived": "2016-11-28",
+              "Started": "2016-11-28",
+              "Completed": "2016-11-28"
+            },
+            "Convert QuotedString to basic-token group": {
+              "Conceived": "2016-11-22",
+              "Started": "2016-11-22",
+              "Completed": "2016-11-28"
+            },
+            "Add error messages": {
+              "Conceived": "2016-08-29",
+              "Started": "2016-08-29",
+              "Completed": "2016-08-29"
+            }
+          }
+        },
+        "C": {
+          "Conceived": "2016-08-29"
+        },
+        "C#": {
+          "Conceived": "2016-08-29"
+        },
+        "Java": {
+          "Conceived": "2016-08-29"
+        },
+        "QubLang": {
+          "Conceived": "2016-08-29"
+        }
+      }
+    },
+    "JSON VS Code Extension": {
+      "Conceived": "2017-02-08",
+      "PlannedTasks": {
+        "Make file paths clickable": {
+          "Conceived": "2017-02-08"
+        }
+      }
+    },
+    "Qub Dev": {
+      "Conceived": "2017-02-02",
+      "PlannedTasks": {
+        "Allow extensions to be published in different levels (personal, friends, public, etc.)": {
+          "Conceived": "2017-02-02",
+          "Notes": {
+            "Motivation": "As I roll out VS Code extensions, I wish that I could test them on my own machines for a couple of days before I roll them out to the world. VS Code has only two models for running your extension: Experimental and Publicly Released. It would be nice if I coudl release my extensions to just my own machines, then maybe to my close friends and contacts, and then once I'm confident that it's working fine, then I could roll it out to the world."
+          }
+        },
+        "Contents of context menu should be context dependent": {
+          "Conceived": "2017-02-08",
+          "Notes": {
+            "Motivation": "In VS Code the context menu is statically based on the extensions that are installed, but so often I want to change the contents of the context menu based on what I right-click on."
+          }
+        }
+      },
+      "Notes": {
+        "Idea": "Qub Dev is a text editor/development environment that uses plugins/extension to add support for different languages."
+      }
+    },
+    "Orca Card Management": {
+      "Conceived": "2017-03-03",
+      "Notes": {
+        "Idea": "A simple app that lets you view and manage the funds on your orca bus pass"
+      }
+    }
+  },
+  "CompletedTasks": {
+    "Create qub npm package from Qub GitHub repository (qub-typescript)": {
+      "Conceived": "2017-06-15",
+      "Started": "2017-09-05",
+      "Completed": "2017-09-05"
+    },
+    "Copy Qub.ts into its own GitHub repository (qub-typescript)": {
+      "Conceived": "2017-06-15",
+      "Started": "2017-06-15",
+      "Completed": "2017-09-05"
+    },
+    "Make Typescript Qub Iterable and Iterator both ES6 Iterators": {
+      "Conceived": "2017-06-15",
+      "Started": "2017-06-15",
+      "Completed": "2017-06-15"
+    },
+    "Tokenizer": {
+      "Conceived": "2016-12-19",
+      "Started": "2016-10-15",
+      "Completed": "2016-10-15",
+      "CompletedTasks": {
+        "Replace Literal and Number TokenTypes with Letters and Digits": {
+          "Conceived": "2016-10-15",
+          "Started": "2016-10-15",
+          "Completed": "2016-10-15"
+        }
+      }
+    },
+    "Change tasks.yaml to a JSON file until YAML extension is built": {
+      "Conceived": "2016-10-28",
+      "Started": "2017-01-30",
+      "Completed": "2017-01-30"
+    },
+    "Update to Typescript 2.0": {
+      "Conceived": "2016-09-25",
+      "Started": "2016-09-25",
+      "Completed": "2016-09-25"
+    }
+  }
+}
