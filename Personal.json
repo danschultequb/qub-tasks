@@ -1,14 +1,42 @@
 {
   "$schema": "./tasks.schema.json",
   "ActiveTasks": {
+    "Yardwork": {
+      "Conceived": "2017-09-05",
+      "Started": "2017-09-05",
+      "ActiveTasks": {
+        "Clear morning glory away from bamboo": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-05"
+        }
+      },
+      "PlannedTasks": {
+        "Wood chip pile": {
+          "Conceived": "2017-09-05",
+          "PlannedTasks": {
+            "Remove morning glory": {
+              "Conceived": "2017-09-05"
+            }
+          }
+        },
+        "Clear access to front Watnong cedars (remove blackberries and morning glory)": {
+          "Conceived": "2017-09-05"
+        },
+        "Learn how to properly install backyard walking path with woodchips": {
+          "Conceived": "2017-09-05"
+        }
+      }
+    },
     "Driveway extension": {
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
-      "ActiveTasks": {},
-      "PlannedTasks": {
+      "ActiveTasks": {
         "Update site plan and drainage review to include paved public right-of-way sections": {
-          "Conceived": "2017-09-05"
-        },
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-05"
+        }
+      },
+      "PlannedTasks": {
         "Create cut-section diagram of the gravel driveway materials": {
           "Conceived": "2017-09-05"
         },
@@ -28,34 +56,13 @@
     }
   },
   "PlannedTasks": {
-    "Yardwork": {
-      "Conceived": "2017-09-05",
-      "Started": "2017-09-05",
-      "PlannedTasks": {
-        "Clear morning glory away from bamboo": {
-          "Conceived": "2017-09-05"
-        },
-        "Wood chip pile": {
-          "Conceived": "2017-09-05",
-          "PlannedTasks": {
-            "Remove morning glory": {
-              "Conceived": "2017-09-05"
-            }
-          }
-        },
-        "Clear access to front Watnong cedars (remove blackberries and morning glory)": {
-          "Conceived": "2017-09-05"
-        },
-        "Learn how to properly install backyard walking path with woodchips": {
-          "Conceived": "2017-09-05"
-        }
-      }
-    },
     "Housework": {
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "PlannedTasks": {
-
+        "Add towel to stairs skylight": {
+          "Conceived": "2017-09-05"
+        }
       }
     }
   },

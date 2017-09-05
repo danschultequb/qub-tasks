@@ -1,7 +1,7 @@
 {
   "$schema": "./tasks.schema.json",
   "ActiveTasks": {
-    "CSV VS Code Extension": {
+    "qub-typescript-csv-vscode": {
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
@@ -49,11 +49,33 @@
         }
       }
     },
-    "Create qub-schedule GitHub repository": {
+    "qub-tasks": {
       "Conceived": "2017-09-05",
-      "Notes": "This repo will be used to store these tasks.json files"
+      "Started": "2017-09-05",
+      "PlannedTasks": {},
+      "CompletedTasks": {
+        "Copy documentation from old qub repository": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-05",
+          "Completed": "2017-09-05"
+        },
+        "Create repository": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-05",
+          "Completed": "2017-09-05"
+        }
+      }
     },
-    "CSV Parser": {
+    "qub-java": {
+      "Conceived": "2017-09-05",
+      "Started": "2017-09-05",
+      "PlannedTasks": {
+        "Change Java minimum version from 1.8 to 1.7": {
+          "Conceived": "2017-09-05"
+        }
+      }
+    },
+    "qub-typescript-csv": {
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "PlannedTasks": {
@@ -62,20 +84,26 @@
         }
       }
     },
-    "Change parse() functions to take a addIssue function instead of an issues List": {
+    "Change parse() functions to take a onIssue function instead of an issues List": {
       "Conceived": "2017-09-05"
     },
-    "Lisp Parser": {
+    "qub-typescript-lisp": {
       "Conceived": "2017-01-30",
       "PlannedTasks": {
+        "Create repository": {
+          "Conceived": "2017-09-05"
+        },
         "Add error messages": {
           "Conceived": "2017-01-30"
         }
       }
     },
-    "Lisp VS Code Extension": {
+    "qub-typescript-lisp-vscode": {
       "Conceived": "2017-01-30",
       "PlannedTasks": {
+        "Create repository": {
+          "Conceived": "2017-09-05"
+        },
         "Show error messages": {
           "Conceived": "2017-01-30"
         },
@@ -87,826 +115,808 @@
         }
       }
     },
-    "MSBuild Parser": {
+    "qub-typescript-msbuild": {
       "Conceived": "2016-07-01",
       "Started": "2016-07-01",
       "PlannedTasks": {
-        "Typescript": {
-          "Conceived": "2016-07-01",
-          "Started": "2016-07-01",
+        "Read new MSBuild documentation": {
+          "Conceived": "2017-04-07",
+          "Started": "2017-04-25",
+          "Notes": {
+            "URL": "https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild"
+          }
+        },
+        "Allow properties to have any child element": {
+          "Conceived": "2017-04-25",
+          "Notes": {
+            "URL": "https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild-properties#storing-xml-in-properties"
+          }
+        },
+        "Add autocompletion and hover text for standard items (and their metadata)": {
+          "Conceived": "2017-03-22",
+          "Notes": {
+            "URL": "https://msdn.microsoft.com/en-us/library/bb629388.aspx"
+          }
+        },
+        "Add autocompletion and hover text for standard properties": {
+          "Conceived": "2017-03-22",
+          "Notes": {
+            "Reserved and Well-Known Properties": "https://msdn.microsoft.com/en-us/library/ms164309.aspx",
+            "Common MSBuild Project Properties": "https://msdn.microsoft.com/en-us/library/bb629394.aspx"
+          }
+        },
+        "Add autocompletion and hover text for standard item metadata (applies to all items)": {
+          "Conceived": "2017-03-22",
+          "Notes": {
+            "URL": "https://msdn.microsoft.com/en-us/library/ms164313.aspx"
+          }
+        },
+        "Make 'Include' an optional attribute on Target ItemGroups": {
+          "Conceived": "2017-04-18"
+        },
+        "Add 'Task' child element schema to 'UsingTask'": {
+          "Conceived": "2017-04-18"
+        },
+        "Add 'Version' attribute to 'Item' elements": {
+          "Conceived": "2017-04-18"
+        },
+        "Parse condition value expressions": {
+          "Conceived": "2017-03-26",
+          "Started": "2017-04-04",
           "PlannedTasks": {
-            "Read new MSBuild documentation": {
-              "Conceived": "2017-04-07",
-              "Started": "2017-04-25",
-              "Notes": {
-                "URL": "https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild"
-              }
-            },
-            "Allow properties to have any child element": {
-              "Conceived": "2017-04-25",
-              "Notes": {
-                "URL": "https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild-properties#storing-xml-in-properties"
-              }
-            },
-            "Add autocompletion and hover text for standard items (and their metadata)": {
-              "Conceived": "2017-03-22",
-              "Notes": {
-                "URL": "https://msdn.microsoft.com/en-us/library/bb629388.aspx"
-              }
-            },
-            "Add autocompletion and hover text for standard properties": {
-              "Conceived": "2017-03-22",
-              "Notes": {
-                "Reserved and Well-Known Properties": "https://msdn.microsoft.com/en-us/library/ms164309.aspx",
-                "Common MSBuild Project Properties": "https://msdn.microsoft.com/en-us/library/bb629394.aspx"
-              }
-            },
-            "Add autocompletion and hover text for standard item metadata (applies to all items)": {
-              "Conceived": "2017-03-22",
-              "Notes": {
-                "URL": "https://msdn.microsoft.com/en-us/library/ms164313.aspx"
-              }
-            },
-            "Make 'Include' an optional attribute on Target ItemGroups": {
-              "Conceived": "2017-04-18"
-            },
-            "Add 'Task' child element schema to 'UsingTask'": {
-              "Conceived": "2017-04-18"
-            },
-            "Add 'Version' attribute to 'Item' elements": {
-              "Conceived": "2017-04-18"
-            },
-            "Parse condition value expressions": {
+            "Parse And condition": {
               "Conceived": "2017-03-26",
-              "Started": "2017-04-04",
-              "PlannedTasks": {
-                "Parse And condition": {
-                  "Conceived": "2017-03-26",
-                  "Started": "2017-04-24"
-                },
-                "Parse < condition": {
-                  "Conceived": "2017-03-26"
-                },
-                "Parse <= condition": {
-                  "Conceived": "2017-03-26"
-                },
-                "Parse > condition": {
-                  "Conceived": "2017-03-26"
-                },
-                "Parse >= condition": {
-                  "Conceived": "2017-03-26"
-                },
-                "Parse Exists() condition": {
-                  "Conceived": "2017-03-26"
-                },
-                "Parse HasTrailingSlash() condition": {
-                  "Conceived": "2017-03-26"
-                },
-                "Parse Or condition": {
-                  "Conceived": "2017-03-26"
-                },
-                "Parse () grouping condition": {
-                  "Conceived": "2017-03-26"
-                }
-              },
-              "CompletedTasks": {
-                "Parse != condition": {
-                  "Conceived": "2017-03-26",
-                  "Started": "2017-04-23",
-                  "Completed": "2017-04-24"
-                },
-                "Parse ! condition": {
-                  "Conceived": "2017-03-26",
-                  "Started": "2017-04-23",
-                  "Completed": "2017-04-24"
-                },
-                "Parse == condition": {
-                  "Conceived": "2017-03-26",
-                  "Started": "2017-04-05",
-                  "Completed": "2017-04-23"
-                },
-                "Expose expression object on MSBuild attributes": {
-                  "Conceived": "2017-04-04",
-                  "Started": "2017-04-04",
-                  "Completed": "2017-04-05"
-                }
-              },
-              "Notes": {
-                "URL": "https://msdn.microsoft.com/en-us/library/7szfhaft.aspx"
-              }
+              "Started": "2017-04-24"
             },
-            "Parse property reference function calls": {
+            "Parse < condition": {
               "Conceived": "2017-03-26"
             },
-            "Parse property function calls": {
-              "Conceived": "2017-03-26",
-              "Notes": {
-                "URL": "https://msdn.microsoft.com/en-us/library/dd633440.aspx"
-              }
-            },
-            "Parse item metadata references": {
+            "Parse <= condition": {
               "Conceived": "2017-03-26"
             },
-            "Add warning messages to references to properties that don't exist": {
-              "Conceived": "2017-04-04"
+            "Parse > condition": {
+              "Conceived": "2017-03-26"
             },
-            "Add validation for custom tasks from existing dlls": {
-              "Conceived": "2017-02-27"
+            "Parse >= condition": {
+              "Conceived": "2017-03-26"
             },
-            "Add validation for custom tasks from in-file code": {
-              "Conceived": "2017-02-27"
+            "Parse Exists() condition": {
+              "Conceived": "2017-03-26"
             },
-            "Error messages for invalid attribute values": {
-              "Conceived": "2017-01-30"
+            "Parse HasTrailingSlash() condition": {
+              "Conceived": "2017-03-26"
             },
-            "Error messages for Project DefaultTargets target names that don't exist": {
-              "Conceived": "2017-04-18"
+            "Parse Or condition": {
+              "Conceived": "2017-03-26"
+            },
+            "Parse () grouping condition": {
+              "Conceived": "2017-03-26"
             }
           },
           "CompletedTasks": {
-            "Parse simple item references": {
+            "Parse != condition": {
+              "Conceived": "2017-03-26",
+              "Started": "2017-04-23",
+              "Completed": "2017-04-24"
+            },
+            "Parse ! condition": {
+              "Conceived": "2017-03-26",
+              "Started": "2017-04-23",
+              "Completed": "2017-04-24"
+            },
+            "Parse == condition": {
+              "Conceived": "2017-03-26",
+              "Started": "2017-04-05",
+              "Completed": "2017-04-23"
+            },
+            "Expose expression object on MSBuild attributes": {
+              "Conceived": "2017-04-04",
+              "Started": "2017-04-04",
+              "Completed": "2017-04-05"
+            }
+          },
+          "Notes": {
+            "URL": "https://msdn.microsoft.com/en-us/library/7szfhaft.aspx"
+          }
+        },
+        "Parse property reference function calls": {
+          "Conceived": "2017-03-26"
+        },
+        "Parse property function calls": {
+          "Conceived": "2017-03-26",
+          "Notes": {
+            "URL": "https://msdn.microsoft.com/en-us/library/dd633440.aspx"
+          }
+        },
+        "Parse item metadata references": {
+          "Conceived": "2017-03-26"
+        },
+        "Add warning messages to references to properties that don't exist": {
+          "Conceived": "2017-04-04"
+        },
+        "Add validation for custom tasks from existing dlls": {
+          "Conceived": "2017-02-27"
+        },
+        "Add validation for custom tasks from in-file code": {
+          "Conceived": "2017-02-27"
+        },
+        "Error messages for invalid attribute values": {
+          "Conceived": "2017-01-30"
+        },
+        "Error messages for Project DefaultTargets target names that don't exist": {
+          "Conceived": "2017-04-18"
+        }
+      },
+      "CompletedTasks": {
+        "Parse simple item references": {
+          "Conceived": "2017-03-26",
+          "Started": "2017-04-04",
+          "Completed": "2017-04-04"
+        },
+        "Parse attribute value and property text expressions": {
+          "Conceived": "2017-01-30",
+          "Started": "2017-03-21",
+          "Completed": "2017-04-04",
+          "CompletedTasks": {
+            "Parse simple property references": {
               "Conceived": "2017-03-26",
               "Started": "2017-04-04",
               "Completed": "2017-04-04"
-            },
-            "Parse attribute value and property text expressions": {
-              "Conceived": "2017-01-30",
-              "Started": "2017-03-21",
-              "Completed": "2017-04-04",
-              "CompletedTasks": {
-                "Parse simple property references": {
-                  "Conceived": "2017-03-26",
-                  "Started": "2017-04-04",
-                  "Completed": "2017-04-04"
-                }
-              }
-            },
-            "Add validation for standard tasks": {
-              "Conceived": "2016-10-28",
-              "Started": "2017-02-27",
-              "Completed": "2017-03-21",
-              "CompletedTasks": {
-                "XslTransformation": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-21",
-                  "Completed": "2017-03-21",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ff598688.aspx"
-                  }
-                },
-                "XSD": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-21",
-                  "Completed": "2017-03-21",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ee862472.aspx"
-                  }
-                },
-                "XMLPoke": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-21",
-                  "Completed": "2017-03-21",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ff598687.aspx"
-                  }
-                },
-                "XMLPeek": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-21",
-                  "Completed": "2017-03-21",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ff598684.aspx"
-                  }
-                },
-                "XDCMake": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-21",
-                  "Completed": "2017-03-21",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ee862480.aspx"
-                  }
-                },
-                "WriteLinesToFile": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-21",
-                  "Completed": "2017-03-21",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ms164305.aspx"
-                  }
-                },
-                "WriteCodeFragment": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-21",
-                  "Completed": "2017-03-21",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ff598685.aspx"
-                  }
-                },
-                "Warning": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-21",
-                  "Completed": "2017-03-21",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/92775st5.aspx"
-                  }
-                },
-                "VCMessage": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-21",
-                  "Completed": "2017-03-21",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ee862479.aspx"
-                  }
-                },
-                "Vbc": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-20",
-                  "Completed": "2017-03-21",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/sb7a1e29.aspx"
-                  }
-                },
-                "UpdateManifest": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-20",
-                  "Completed": "2017-03-20",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ff598683.aspx"
-                  }
-                },
-                "UnregisterAssembly": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-20",
-                  "Completed": "2017-03-20",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/a8d5b2y5.aspx"
-                  }
-                },
-                "Touch": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-20",
-                  "Completed": "2017-03-20",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/37fwbyt5.aspx"
-                  }
-                },
-                "SignFile": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-20",
-                  "Completed": "2017-03-20",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ms164304.aspx"
-                  }
-                },
-                "SGen": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-20",
-                  "Completed": "2017-03-20",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ms164303.aspx"
-                  }
-                },
-                "SetEnv": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-20",
-                  "Completed": "2017-03-20",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ee862485.aspx"
-                  }
-                },
-                "ResolveNonMSBuildProjectOutput": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-20",
-                  "Completed": "2017-03-20",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ff598690.aspx"
-                  }
-                },
-                "ResolveNativeReference": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-19",
-                  "Completed": "2017-03-20",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ms164302.aspx"
-                  }
-                },
-                "ResolveManifestFiles": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-19",
-                  "Completed": "2017-03-19",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ff598691.aspx"
-                  }
-                },
-                "ResolveKeySource": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-19",
-                  "Completed": "2017-03-19",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ms164301.aspx"
-                  }
-                },
-                "ResolveComReference": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-19",
-                  "Completed": "2017-03-19",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/56e00bfh.aspx"
-                  }
-                },
-                "ResolveAssemblyReference": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-09",
-                  "Completed": "2017-03-19",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/9ad3f294.aspx"
-                  }
-                },
-                "RequiresFramework35SP1Assembly": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-09",
-                  "Completed": "2017-03-09",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ff598689.aspx"
-                  }
-                },
-                "RemoveDuplicates": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-09",
-                  "Completed": "2017-03-09",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ms164300.aspx"
-                  }
-                },
-                "RemoveDir": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-09",
-                  "Completed": "2017-03-09",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/xyfz6ddb.aspx"
-                  }
-                },
-                "RegisterAssembly": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-09",
-                  "Completed": "2017-03-09",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/dakwb8wf.aspx"
-                  }
-                },
-                "ReadLinesFromFile": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-09",
-                  "Completed": "2017-03-09",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ms164299.aspx"
-                  }
-                },
-                "RC": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-08",
-                  "Completed": "2017-03-09",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ee862475.aspx"
-                  }
-                },
-                "MT": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-08",
-                  "Completed": "2017-03-08",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ee862482.aspx"
-                  }
-                },
-                "MSBuild": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-08",
-                  "Completed": "2017-03-08",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/z7f65y0d.aspx"
-                  }
-                },
-                "Move": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-08",
-                  "Completed": "2017-03-08",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ff595163.aspx"
-                  }
-                },
-                "MIDL": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-07",
-                  "Completed": "2017-03-08",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ee862478.aspx"
-                  }
-                },
-                "Message": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-07",
-                  "Completed": "2017-03-07",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/6yy0yx8d.aspx"
-                  }
-                },
-                "MakeDir": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-07",
-                  "Completed": "2017-03-07",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/s2448zz7.aspx"
-                  }
-                },
-                "Link": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-06",
-                  "Completed": "2017-03-07",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ee862471.aspx"
-                  }
-                },
-                "LIB": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-06",
-                  "Completed": "2017-03-06",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ee862484.aspx"
-                  }
-                },
-                "LC": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-06",
-                  "Completed": "2017-03-06",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/dya5de84.aspx"
-                  }
-                },
-                "GetReferenceAssemblyPaths": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-04",
-                  "Completed": "2017-03-04",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ff595159.aspx"
-                  }
-                },
-                "GetFrameworkSdkPath": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-04",
-                  "Completed": "2017-03-04",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ms164298.aspx"
-                  }
-                },
-                "GetFrameworkPath": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-03",
-                  "Completed": "2017-03-04",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ms164297.aspx"
-                  }
-                },
-                "GetAssemblyIdentity": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-03",
-                  "Completed": "2017-03-03",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ms164296.aspx"
-                  }
-                },
-                "GenerateTrustInfo": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-03",
-                  "Completed": "2017-03-03",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ff595160.aspx"
-                  }
-                },
-                "GenerateResource": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-03",
-                  "Completed": "2017-03-03",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ms164295.aspx"
-                  }
-                },
-                "GenerateDeploymentManifest": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-03",
-                  "Completed": "2017-03-03",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/3k2t34e7.aspx"
-                  }
-                },
-                "GenerateBootstrapper": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-03",
-                  "Completed": "2017-03-03",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ms164294.aspx"
-                  }
-                },
-                "GenerateApplicationManifest": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-03",
-                  "Completed": "2017-03-03",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/6wc2ccdc.aspx"
-                  }
-                },
-                "FormatVersion": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-03",
-                  "Completed": "2017-03-03",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ff595162.aspx"
-                  }
-                },
-                "FormatUrl": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-03",
-                  "Completed": "2017-03-03",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ff595161.aspx"
-                  }
-                },
-                "FindUnderPath": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-02",
-                  "Completed": "2017-03-03",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ms164293.aspx"
-                  }
-                },
-                "FindInList": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-02",
-                  "Completed": "2017-03-02",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/bb763047.aspx"
-                  }
-                },
-                "FindAppConfigFile": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-02",
-                  "Completed": "2017-03-02",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ff595164.aspx"
-                  }
-                },
-                "Exec": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-02",
-                  "Completed": "2017-03-02",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/x8zx72cd.aspx"
-                  }
-                },
-                "Delete": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-02",
-                  "Completed": "2017-03-02",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/7wd15byf.aspx"
-                  }
-                },
-                "Csc": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-01",
-                  "Completed": "2017-03-02",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/s5c8athz.aspx"
-                  }
-                },
-                "CreateVirtualBasicManifestResourceName": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-02",
-                  "Completed": "2017-03-02",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/bb762915.aspx"
-                  }
-                },
-                "CreateProperty": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-02",
-                  "Completed": "2017-03-02",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/63ckb9s9.aspx"
-                  }
-                },
-                "CreateItem": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-02",
-                  "Completed": "2017-03-02",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/s2y3e43x.aspx"
-                  }
-                },
-                "CreateCSharpManifestResourceName": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-01",
-                  "Completed": "2017-03-02",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/bb762925.aspx"
-                  }
-                },
-                "CPPClean": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-01",
-                  "Completed": "2017-03-01",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ee862481.aspx"
-                  }
-                },
-                "ConvertToAbsolutePath": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-01",
-                  "Completed": "2017-03-01",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/bb882668.aspx"
-                  }
-                },
-                "CombinePath": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-03-01",
-                  "Completed": "2017-03-01",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/bb763042.aspx"
-                  }
-                },
-                "CL": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-02-28",
-                  "Completed": "2017-03-01",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ee862477.aspx"
-                  }
-                },
-                "CallTarget": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-02-28",
-                  "Completed": "2017-02-28",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ms229474.aspx"
-                  }
-                },
-                "AssignTargetPath": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-02-28",
-                  "Completed": "2017-02-28",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ff601917.aspx"
-                  }
-                },
-                "AssignProjectConfiguration": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-02-27",
-                  "Completed": "2017-02-28",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ff598682.aspx"
-                  }
-                },
-                "Error": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-02-27",
-                  "Completed": "2017-02-27",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/8b08t3s4.aspx"
-                  }
-                },
-                "Copy": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-02-27",
-                  "Completed": "2017-02-27",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/3e54c37h.aspx"
-                  }
-                },
-                "AssignCulture": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-02-27",
-                  "Completed": "2017-02-27",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ms164292.aspx"
-                  }
-                },
-                "AspNetCompiler": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-02-27",
-                  "Completed": "2017-02-27",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ms164291.aspx"
-                  }
-                },
-                "AL": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-02-27",
-                  "Completed": "2017-02-27",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/cywecfx9.aspx"
-                  }
-                },
-                "BscMake": {
-                  "Conceived": "2017-02-27",
-                  "Started": "2017-02-27",
-                  "Completed": "2017-02-27",
-                  "Notes": {
-                    "URL": "https://msdn.microsoft.com/en-us/library/ee862483.aspx"
-                  }
-                }
-              }
-            },
-            "Allow Items to not have an Include attribute if they are inside of a Target element and they have a Remove attribute": {
-              "Conceived": "2016-12-06",
-              "Started": "2017-02-27",
-              "Completed": "2017-02-27",
-              "Notes": {
-                "Reference URL": "https://msdn.microsoft.com/en-us/library/ms171453.aspx#Anchor_7"
-              }
-            },
-            "Add XML error messages to MSBuild document issues list": {
-              "Conceived": "2017-02-13",
-              "Started": "2017-02-27",
-              "Completed": "2017-02-27"
-            },
-            "Parse Import element": {
-              "Conceived": "2017-02-09",
-              "Started": "2017-02-27",
-              "Completed": "2017-02-27"
-            },
-            "Parse PropertyGroup element": {
-              "Conceived": "2017-02-09",
-              "Started": "2017-02-27",
-              "Completed": "2017-02-27"
-            },
-            "Parse Property element": {
-              "Conceived": "2017-02-09",
-              "Started": "2017-02-27",
-              "Completed": "2017-02-27"
-            },
-            "Parse ItemGroup element": {
-              "Conceived": "2017-02-09",
-              "Started": "2017-02-27",
-              "Completed": "2017-02-27"
-            },
-            "Add Label attribute to PropertyGroup": {
-              "Conceived": "2017-01-30",
-              "Started": "2017-02-27",
-              "Completed": "2017-02-27"
-            },
-            "Add Label attribute to Import": {
-              "Conceived": "2017-02-03",
-              "Started": "2017-02-27",
-              "Completed": "2017-02-27"
-            },
-            "Fix ImportGroup cannot have any child elements bug": {
-              "Conceived": "2017-02-01",
-              "Started": "2017-02-27",
-              "Completed": "2017-02-27"
-            },
-            "Remove schemas from MSBuild and use objects instead": {
-              "Conceived": "2017-01-30",
-              "Started": "2017-02-27",
-              "Completed": "2017-02-27"
-            },
-            "Add error message for missing Project xmlns attribute": {
-              "Conceived": "2017-02-13",
-              "Started": "2017-02-13",
-              "Completed": "2017-02-27"
-            },
-            "Add hover text for Project element": {
-              "Conceived": "2017-02-12",
-              "Started": "2017-02-12",
-              "Completed": "2017-02-13"
-            },
-            "Parse Project element": {
-              "Conceived": "2017-02-09",
-              "Started": "2017-02-09",
-              "Completed": "2017-02-12"
-            },
-            "Add option to ignore XML parse errors": {
-              "Conceived": "2016-10-07",
-              "Started": "2016-10-07",
-              "Completed": "2016-10-07"
-            },
-            "Add error messages": {
-              "Conceived": "2016-09-22",
-              "Started": "2016-09-22",
-              "Completed": "2016-10-05"
             }
           }
         },
-        "C": {
-          "Conceived": "2017-01-30"
+        "Add validation for standard tasks": {
+          "Conceived": "2016-10-28",
+          "Started": "2017-02-27",
+          "Completed": "2017-03-21",
+          "CompletedTasks": {
+            "XslTransformation": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-21",
+              "Completed": "2017-03-21",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ff598688.aspx"
+              }
+            },
+            "XSD": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-21",
+              "Completed": "2017-03-21",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ee862472.aspx"
+              }
+            },
+            "XMLPoke": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-21",
+              "Completed": "2017-03-21",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ff598687.aspx"
+              }
+            },
+            "XMLPeek": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-21",
+              "Completed": "2017-03-21",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ff598684.aspx"
+              }
+            },
+            "XDCMake": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-21",
+              "Completed": "2017-03-21",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ee862480.aspx"
+              }
+            },
+            "WriteLinesToFile": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-21",
+              "Completed": "2017-03-21",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ms164305.aspx"
+              }
+            },
+            "WriteCodeFragment": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-21",
+              "Completed": "2017-03-21",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ff598685.aspx"
+              }
+            },
+            "Warning": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-21",
+              "Completed": "2017-03-21",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/92775st5.aspx"
+              }
+            },
+            "VCMessage": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-21",
+              "Completed": "2017-03-21",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ee862479.aspx"
+              }
+            },
+            "Vbc": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-20",
+              "Completed": "2017-03-21",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/sb7a1e29.aspx"
+              }
+            },
+            "UpdateManifest": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-20",
+              "Completed": "2017-03-20",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ff598683.aspx"
+              }
+            },
+            "UnregisterAssembly": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-20",
+              "Completed": "2017-03-20",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/a8d5b2y5.aspx"
+              }
+            },
+            "Touch": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-20",
+              "Completed": "2017-03-20",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/37fwbyt5.aspx"
+              }
+            },
+            "SignFile": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-20",
+              "Completed": "2017-03-20",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ms164304.aspx"
+              }
+            },
+            "SGen": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-20",
+              "Completed": "2017-03-20",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ms164303.aspx"
+              }
+            },
+            "SetEnv": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-20",
+              "Completed": "2017-03-20",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ee862485.aspx"
+              }
+            },
+            "ResolveNonMSBuildProjectOutput": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-20",
+              "Completed": "2017-03-20",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ff598690.aspx"
+              }
+            },
+            "ResolveNativeReference": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-19",
+              "Completed": "2017-03-20",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ms164302.aspx"
+              }
+            },
+            "ResolveManifestFiles": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-19",
+              "Completed": "2017-03-19",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ff598691.aspx"
+              }
+            },
+            "ResolveKeySource": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-19",
+              "Completed": "2017-03-19",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ms164301.aspx"
+              }
+            },
+            "ResolveComReference": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-19",
+              "Completed": "2017-03-19",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/56e00bfh.aspx"
+              }
+            },
+            "ResolveAssemblyReference": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-09",
+              "Completed": "2017-03-19",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/9ad3f294.aspx"
+              }
+            },
+            "RequiresFramework35SP1Assembly": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-09",
+              "Completed": "2017-03-09",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ff598689.aspx"
+              }
+            },
+            "RemoveDuplicates": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-09",
+              "Completed": "2017-03-09",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ms164300.aspx"
+              }
+            },
+            "RemoveDir": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-09",
+              "Completed": "2017-03-09",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/xyfz6ddb.aspx"
+              }
+            },
+            "RegisterAssembly": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-09",
+              "Completed": "2017-03-09",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/dakwb8wf.aspx"
+              }
+            },
+            "ReadLinesFromFile": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-09",
+              "Completed": "2017-03-09",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ms164299.aspx"
+              }
+            },
+            "RC": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-08",
+              "Completed": "2017-03-09",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ee862475.aspx"
+              }
+            },
+            "MT": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-08",
+              "Completed": "2017-03-08",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ee862482.aspx"
+              }
+            },
+            "MSBuild": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-08",
+              "Completed": "2017-03-08",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/z7f65y0d.aspx"
+              }
+            },
+            "Move": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-08",
+              "Completed": "2017-03-08",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ff595163.aspx"
+              }
+            },
+            "MIDL": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-07",
+              "Completed": "2017-03-08",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ee862478.aspx"
+              }
+            },
+            "Message": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-07",
+              "Completed": "2017-03-07",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/6yy0yx8d.aspx"
+              }
+            },
+            "MakeDir": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-07",
+              "Completed": "2017-03-07",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/s2448zz7.aspx"
+              }
+            },
+            "Link": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-06",
+              "Completed": "2017-03-07",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ee862471.aspx"
+              }
+            },
+            "LIB": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-06",
+              "Completed": "2017-03-06",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ee862484.aspx"
+              }
+            },
+            "LC": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-06",
+              "Completed": "2017-03-06",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/dya5de84.aspx"
+              }
+            },
+            "GetReferenceAssemblyPaths": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-04",
+              "Completed": "2017-03-04",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ff595159.aspx"
+              }
+            },
+            "GetFrameworkSdkPath": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-04",
+              "Completed": "2017-03-04",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ms164298.aspx"
+              }
+            },
+            "GetFrameworkPath": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-03",
+              "Completed": "2017-03-04",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ms164297.aspx"
+              }
+            },
+            "GetAssemblyIdentity": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-03",
+              "Completed": "2017-03-03",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ms164296.aspx"
+              }
+            },
+            "GenerateTrustInfo": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-03",
+              "Completed": "2017-03-03",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ff595160.aspx"
+              }
+            },
+            "GenerateResource": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-03",
+              "Completed": "2017-03-03",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ms164295.aspx"
+              }
+            },
+            "GenerateDeploymentManifest": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-03",
+              "Completed": "2017-03-03",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/3k2t34e7.aspx"
+              }
+            },
+            "GenerateBootstrapper": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-03",
+              "Completed": "2017-03-03",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ms164294.aspx"
+              }
+            },
+            "GenerateApplicationManifest": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-03",
+              "Completed": "2017-03-03",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/6wc2ccdc.aspx"
+              }
+            },
+            "FormatVersion": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-03",
+              "Completed": "2017-03-03",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ff595162.aspx"
+              }
+            },
+            "FormatUrl": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-03",
+              "Completed": "2017-03-03",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ff595161.aspx"
+              }
+            },
+            "FindUnderPath": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-02",
+              "Completed": "2017-03-03",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ms164293.aspx"
+              }
+            },
+            "FindInList": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-02",
+              "Completed": "2017-03-02",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/bb763047.aspx"
+              }
+            },
+            "FindAppConfigFile": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-02",
+              "Completed": "2017-03-02",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ff595164.aspx"
+              }
+            },
+            "Exec": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-02",
+              "Completed": "2017-03-02",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/x8zx72cd.aspx"
+              }
+            },
+            "Delete": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-02",
+              "Completed": "2017-03-02",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/7wd15byf.aspx"
+              }
+            },
+            "Csc": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-01",
+              "Completed": "2017-03-02",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/s5c8athz.aspx"
+              }
+            },
+            "CreateVirtualBasicManifestResourceName": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-02",
+              "Completed": "2017-03-02",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/bb762915.aspx"
+              }
+            },
+            "CreateProperty": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-02",
+              "Completed": "2017-03-02",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/63ckb9s9.aspx"
+              }
+            },
+            "CreateItem": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-02",
+              "Completed": "2017-03-02",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/s2y3e43x.aspx"
+              }
+            },
+            "CreateCSharpManifestResourceName": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-01",
+              "Completed": "2017-03-02",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/bb762925.aspx"
+              }
+            },
+            "CPPClean": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-01",
+              "Completed": "2017-03-01",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ee862481.aspx"
+              }
+            },
+            "ConvertToAbsolutePath": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-01",
+              "Completed": "2017-03-01",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/bb882668.aspx"
+              }
+            },
+            "CombinePath": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-03-01",
+              "Completed": "2017-03-01",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/bb763042.aspx"
+              }
+            },
+            "CL": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-02-28",
+              "Completed": "2017-03-01",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ee862477.aspx"
+              }
+            },
+            "CallTarget": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-02-28",
+              "Completed": "2017-02-28",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ms229474.aspx"
+              }
+            },
+            "AssignTargetPath": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-02-28",
+              "Completed": "2017-02-28",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ff601917.aspx"
+              }
+            },
+            "AssignProjectConfiguration": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-02-27",
+              "Completed": "2017-02-28",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ff598682.aspx"
+              }
+            },
+            "Error": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-02-27",
+              "Completed": "2017-02-27",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/8b08t3s4.aspx"
+              }
+            },
+            "Copy": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-02-27",
+              "Completed": "2017-02-27",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/3e54c37h.aspx"
+              }
+            },
+            "AssignCulture": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-02-27",
+              "Completed": "2017-02-27",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ms164292.aspx"
+              }
+            },
+            "AspNetCompiler": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-02-27",
+              "Completed": "2017-02-27",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ms164291.aspx"
+              }
+            },
+            "AL": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-02-27",
+              "Completed": "2017-02-27",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/cywecfx9.aspx"
+              }
+            },
+            "BscMake": {
+              "Conceived": "2017-02-27",
+              "Started": "2017-02-27",
+              "Completed": "2017-02-27",
+              "Notes": {
+                "URL": "https://msdn.microsoft.com/en-us/library/ee862483.aspx"
+              }
+            }
+          }
         },
-        "C#": {
-          "Conceived": "2017-01-30"
+        "Allow Items to not have an Include attribute if they are inside of a Target element and they have a Remove attribute": {
+          "Conceived": "2016-12-06",
+          "Started": "2017-02-27",
+          "Completed": "2017-02-27",
+          "Notes": {
+            "Reference URL": "https://msdn.microsoft.com/en-us/library/ms171453.aspx#Anchor_7"
+          }
         },
-        "Java": {
-          "Conceived": "2017-01-30"
+        "Add XML error messages to MSBuild document issues list": {
+          "Conceived": "2017-02-13",
+          "Started": "2017-02-27",
+          "Completed": "2017-02-27"
         },
-        "QubLang": {
-          "Conceived": "2017-01-30"
+        "Parse Import element": {
+          "Conceived": "2017-02-09",
+          "Started": "2017-02-27",
+          "Completed": "2017-02-27"
+        },
+        "Parse PropertyGroup element": {
+          "Conceived": "2017-02-09",
+          "Started": "2017-02-27",
+          "Completed": "2017-02-27"
+        },
+        "Parse Property element": {
+          "Conceived": "2017-02-09",
+          "Started": "2017-02-27",
+          "Completed": "2017-02-27"
+        },
+        "Parse ItemGroup element": {
+          "Conceived": "2017-02-09",
+          "Started": "2017-02-27",
+          "Completed": "2017-02-27"
+        },
+        "Add Label attribute to PropertyGroup": {
+          "Conceived": "2017-01-30",
+          "Started": "2017-02-27",
+          "Completed": "2017-02-27"
+        },
+        "Add Label attribute to Import": {
+          "Conceived": "2017-02-03",
+          "Started": "2017-02-27",
+          "Completed": "2017-02-27"
+        },
+        "Fix ImportGroup cannot have any child elements bug": {
+          "Conceived": "2017-02-01",
+          "Started": "2017-02-27",
+          "Completed": "2017-02-27"
+        },
+        "Remove schemas from MSBuild and use objects instead": {
+          "Conceived": "2017-01-30",
+          "Started": "2017-02-27",
+          "Completed": "2017-02-27"
+        },
+        "Add error message for missing Project xmlns attribute": {
+          "Conceived": "2017-02-13",
+          "Started": "2017-02-13",
+          "Completed": "2017-02-27"
+        },
+        "Add hover text for Project element": {
+          "Conceived": "2017-02-12",
+          "Started": "2017-02-12",
+          "Completed": "2017-02-13"
+        },
+        "Parse Project element": {
+          "Conceived": "2017-02-09",
+          "Started": "2017-02-09",
+          "Completed": "2017-02-12"
+        },
+        "Add option to ignore XML parse errors": {
+          "Conceived": "2016-10-07",
+          "Started": "2016-10-07",
+          "Completed": "2016-10-07"
+        },
+        "Add error messages": {
+          "Conceived": "2016-09-22",
+          "Started": "2016-09-22",
+          "Completed": "2016-10-05"
         }
       }
     },

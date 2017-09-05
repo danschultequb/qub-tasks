@@ -5,13 +5,13 @@
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Move local repository file copying to JavaSample sub-class": {
+        "Move local repository validation/compiling/dependency reduction to JavaSample sub-class": {
           "Conceived": "2017-09-05",
           "Started": "2017-09-05"
         }
       },
       "PlannedTasks": {
-        "Move local repository validation/compiling/dependency reduction to JavaSample sub-class": {
+        "Clone .NET sample repositories": {
           "Conceived": "2017-09-05"
         },
         "Add local repository file copying to DotNetSample sub-class": {
@@ -29,6 +29,11 @@
         }
       },
       "CompletedTasks": {
+        "Move local repository file copying to JavaSample sub-class": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-05",
+          "Completed": "2017-09-05"
+        },
         "Be able to read the SampleGenerator.data file and only return java samples": {
           "Conceived": "2017-09-05",
           "Started": "2017-09-05",
