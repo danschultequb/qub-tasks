@@ -5,22 +5,22 @@
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Move local repository validation/compiling/dependency reduction to JavaSample sub-class": {
+        "Add local repository file copying to DotNetSample sub-class": {
           "Conceived": "2017-09-05",
           "Started": "2017-09-05"
         }
       },
       "PlannedTasks": {
-        "Clone .NET sample repositories": {
-          "Conceived": "2017-09-05"
-        },
-        "Add local repository file copying to DotNetSample sub-class": {
-          "Conceived": "2017-09-05"
-        },
         "Add local repository validation/compiling to DotNetSample sub-class": {
           "Conceived": "2017-09-05"
         },
         "Delete .NET implementation": {
+          "Conceived": "2017-09-05"
+        },
+        "Move Java specific files (as opposed to .NET specific files) to a new java package": {
+          "Conceived": "2017-09-05"
+        },
+        "Move .NET specific files to a new java package": {
           "Conceived": "2017-09-05"
         },
         "Make scriptable": {
@@ -29,6 +29,16 @@
         }
       },
       "CompletedTasks": {
+        "Clone .NET sample repositories": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-05",
+          "Completed": "2017-09-05"
+        },
+        "Move local repository validation/compiling/dependency reduction to JavaSample sub-class": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-05",
+          "Completed": "2017-09-05"
+        },
         "Move local repository file copying to JavaSample sub-class": {
           "Conceived": "2017-09-05",
           "Started": "2017-09-05",
