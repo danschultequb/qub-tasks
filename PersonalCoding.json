@@ -5,15 +5,12 @@
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Change Java minimum version from 1.8 to 1.7": {
+        "Add ReadStream, ReadStreamBase, StandardInputReadStream, and InMemoryReadStream": {
           "Conceived": "2017-09-05",
           "Started": "2017-09-06"
         }
       },
       "PlannedTasks": {
-        "Add ReadStream, ReadStreamBase, StandardInputReadStream, and InMemoryReadStream": {
-          "Conceived": "2017-09-05"
-        },
         "Add StandardErrorWriteStream": {
           "Conceived": "2017-09-05"
         },
@@ -44,6 +41,13 @@
         },
         "Convert Text Adventure game (original in C) to Java": {
           "Conceived": "2017-09-05"
+        }
+      },
+      "CompletedTasks": {
+        "Change Java minimum version from 1.8 to 1.7": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-06",
+          "Completed": "2017-09-06"
         }
       }
     },
