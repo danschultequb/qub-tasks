@@ -1,6 +1,10 @@
 {
   "$schema": "./tasks.schema.json",
   "ActiveTasks": {
+    "RestProxy - Non-string request and response bodies": {
+      "Conceived": "2017-09-07",
+      "Started": "2017-09-07"
+    },
     "ExpandableStringEnum": {
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
@@ -57,10 +61,38 @@
     }
   },
   "PlannedTasks": {
+    "RestProxy - Long running operations": {
+      "Conceived": "2017-09-07"
+    },
+    "RestProxy - AzureHost annotation": {
+      "Conceived": "2017-09-07"
+    },
+    "RestProxy - URL encoding": {
+      "Conceived": "2017-09-07"
+    },
+    "RestProxy - ErrorResponse annotation": {
+      "Conceived": "2017-09-07"
+    },
     "sample-repo-gen-tool": {
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "PlannedTasks": {
+        "Add sample data (owner and repository path) to sample source code files": {
+          "Conceived": "2017-09-07"
+        },
+        "Pull out settings to settings.json file": {
+          "Conceived": "2017-09-07",
+          "Notes": "This will require some code reworking to reference the values that are read from the settings.json file instead of referencing constant values."
+        },
+        "Create settings-schema.json file": {
+          "Conceived": "2017-09-07"
+        },
+        "Add settings.json file to .gitignore file so that each person will have their own": {
+          "Conceived": "2017-09-07"
+        },
+        "Use environment variables for JAVA_HOME and MAVEN_HOME if they're not specified in settings.json file": {
+          "Conceived": "2017-09-07"
+        },
         "Make scriptable": {
           "Conceived": "2017-09-05",
           "Notes": "Each operation should have a simple command method that does a large piece of work (make repository public, populate sample local repository, etc.)"
@@ -115,14 +147,6 @@
           "Conceived": "2017-09-05",
           "Started": "2017-09-05",
           "Completed": "2017-09-05"
-        }
-      }
-    },
-    "autorest-clientruntime-for-java": {
-      "Conceived": "2017-09-05",
-      "PlannedTasks": {
-        "v2": {
-          "Conceived": "2017-09-05"
         }
       }
     }
