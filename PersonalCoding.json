@@ -5,18 +5,12 @@
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Add README.md file to repository": {
-          "Conceived": "2017-09-05",
-          "Started": "2017-09-06"
+        "Add skip() to Iterable": {
+          "Conceived": "2017-09-07",
+          "Started": "2017-09-07"
         }
       },
       "PlannedTasks": {
-        "Add where() to Iterator": {
-          "Conceived": "2017-09-05"
-        },
-        "Add where() to Iterable": {
-          "Conceived": "2017-09-05"
-        },
         "Add map() to Iterator": {
           "Conceived": "2017-09-05"
         },
@@ -29,6 +23,18 @@
         "Add instanceOf() to Iterable": {
           "Conceived": "2017-09-06"
         },
+        "Rename WriteStream to ByteWriteStream and remove methods with CharacterEncoding": {
+          "Conceived": "2017-09-07"
+        },
+        "Rename ReadStream to ByteReadStream": {
+          "Conceived": "2017-09-07"
+        },
+        "Add TextWriteStream": {
+          "Conceived": "2017-09-07"
+        },
+        "Add TextReadStream": {
+          "Conceived": "2017-09-07"
+        }
         "Publish maven package": {
           "Conceived": "2017-09-05"
         },
@@ -47,6 +53,21 @@
         }
       },
       "CompletedTasks": {
+        "Add where() to Iterable": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-07",
+          "Completed": "2017-09-07"
+        },
+        "Add where() to Iterator": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-07",
+          "Completed": "2017-09-07"
+        },
+        "Add README.md file to repository": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-06",
+          "Completed": "2017-09-07"
+        },
         "Add StandardErrorWriteStream": {
           "Conceived": "2017-09-05",
           "Started": "2017-09-06",
