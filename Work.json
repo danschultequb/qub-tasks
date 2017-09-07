@@ -5,39 +5,6 @@
       "Conceived": "2017-09-07",
       "Started": "2017-09-07"
     },
-    "ExpandableStringEnum": {
-      "Conceived": "2017-09-05",
-      "Started": "2017-09-05",
-      "ActiveTasks": {
-        "Merge autorest.java pull request": {
-          "Conceived": "2017-09-05",
-          "Started": "2017-09-07"
-        }
-      },
-      "PlannedTasks": {
-        "Generate inners to ensure they look the same except for ExpandableStringEnum changes": {
-          "Conceived": "2017-09-05",
-          "Notes": "We're going to wait to do this until we regenerate inners for 2.0"
-        }
-      },
-      "CompletedTasks": {
-        "Merge autorest-clientruntime-for-java pull request": {
-          "Conceived": "2017-09-07",
-          "Started": "2017-09-07",
-          "Completed": "2017-09-07"
-        },
-        "Get all tests to pass": {
-          "Conceived": "2017-09-05",
-          "Started": "2017-09-06",
-          "Completed": "2017-09-07"
-        },
-        "Merge latest changes into branch": {
-          "Conceived": "2017-09-05",
-          "Started": "2017-09-06",
-          "Completed": "2017-09-06"
-        }
-      }
-    },
     "Setup work VM on work laptop": {
       "Conceived": "2017-09-05",
       "Started": "2017-09-07",
@@ -147,6 +114,38 @@
           "Conceived": "2017-09-05",
           "Started": "2017-09-05",
           "Completed": "2017-09-05"
+        }
+      }
+    },
+    "ExpandableStringEnum": {
+      "Conceived": "2017-09-05",
+      "Started": "2017-09-05",
+      "PlannedTasks": {
+        "Generate inners to ensure they look the same except for ExpandableStringEnum changes": {
+          "Conceived": "2017-09-05",
+          "Notes": "We're going to wait to do this until we regenerate inners for 2.0"
+        }
+      },
+      "CompletedTasks": {
+        "Merge autorest.java pull request": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-07",
+          "Completed": "2017-09-07"
+        },
+        "Merge autorest-clientruntime-for-java pull request": {
+          "Conceived": "2017-09-07",
+          "Started": "2017-09-07",
+          "Completed": "2017-09-07"
+        },
+        "Get all tests to pass": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-06",
+          "Completed": "2017-09-07"
+        },
+        "Merge latest changes into branch": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-06",
+          "Completed": "2017-09-06"
         }
       }
     }

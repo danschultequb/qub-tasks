@@ -29,7 +29,13 @@
         "Add TextWriteStream": {
           "Conceived": "2017-09-07"
         },
+        "Change StandardOutputWriteStream and StandardErrorWriteStream classes to TextWriteStreams": {
+          "Conceived": "2017-09-07"
+        },
         "Add TextReadStream": {
+          "Conceived": "2017-09-07"
+        },
+        "Change StandardInputReadStream to TextReadStream": {
           "Conceived": "2017-09-07"
         },
         "Publish maven package": {
