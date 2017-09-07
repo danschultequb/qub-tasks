@@ -5,20 +5,23 @@
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Merge autorest-clientruntime-for-java pull request": {
-          "Conceived": "2017-09-07",
+        "Generate inners to ensure they look the same except for ExpandableStringEnum changes": {
+          "Conceived": "2017-09-05",
           "Started": "2017-09-07"
         }
       },
       "PlannedTasks": {
-        "Generate inners to ensure they look the same except for ExpandableStringEnum changes": {
-          "Conceived": "2017-09-05"
-        },
         "Merge autorest.java pull request": {
-          "Conceived": "2017-09-05"
+          "Conceived": "2017-09-05",
+          "Notes": "The pull request is currently failing because the autorest-clientruntime-for-java pull request changes haven't been published in a snapshot package yet. Once that happens, then the pull request will start passing."
         }
       },
       "CompletedTasks": {
+        "Merge autorest-clientruntime-for-java pull request": {
+          "Conceived": "2017-09-07",
+          "Started": "2017-09-07",
+          "Completed": "2017-09-07"
+        },
         "Get all tests to pass": {
           "Conceived": "2017-09-05",
           "Started": "2017-09-06",
@@ -50,6 +53,10 @@
         "Make scriptable": {
           "Conceived": "2017-09-05",
           "Notes": "Each operation should have a simple command method that does a large piece of work (make repository public, populate sample local repository, etc.)"
+        },
+        "Add summary at end of execution": {
+          "Conceived": "2017-09-07",
+          "Notes": "How many sample repositories were compiled, how many failed, how many were pushed, how many repos were made public"
         }
       },
       "CompletedTasks": {

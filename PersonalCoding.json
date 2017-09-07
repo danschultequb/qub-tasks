@@ -5,15 +5,12 @@
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Add skip() to Iterable": {
-          "Conceived": "2017-09-07",
+        "Add map() to Iterator": {
+          "Conceived": "2017-09-05",
           "Started": "2017-09-07"
         }
       },
       "PlannedTasks": {
-        "Add map() to Iterator": {
-          "Conceived": "2017-09-05"
-        },
         "Add map() to Iterable": {
           "Conceived": "2017-09-05"
         },
@@ -53,6 +50,11 @@
         }
       },
       "CompletedTasks": {
+        "Add skip() to Iterable": {
+          "Conceived": "2017-09-07",
+          "Started": "2017-09-07",
+          "Completed": "2017-09-07"
+        },
         "Add where() to Iterable": {
           "Conceived": "2017-09-05",
           "Started": "2017-09-07",
