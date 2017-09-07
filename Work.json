@@ -1,22 +1,44 @@
 {
   "$schema": "./tasks.schema.json",
   "ActiveTasks": {
+    "ExpandableStringEnum": {
+      "Conceived": "2017-09-05",
+      "Started": "2017-09-05",
+      "ActiveTasks": {
+        "Get all tests to pass": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-06"
+        }
+      },
+      "PlannedTasks": {
+        "Generate inners to ensure they look the same except for ExpandableStringEnum changes": {
+          "Conceived": "2017-09-05"
+        },
+        "Push changes to autorest Java generator repository/pull request": {
+          "Conceived": "2017-09-05"
+        },
+        "Merge pull request": {
+          "Conceived": "2017-09-05"
+        }
+      },
+      "CompletedTasks": {
+        "Merge latest changes into branch": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-06",
+          "Completed": "2017-09-06"
+        }
+      }
+    },
     "sample-repo-gen-tool": {
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Add local repository file copying to DotNetSample sub-class": {
+        "Delete .NET implementation": {
           "Conceived": "2017-09-05",
-          "Started": "2017-09-05"
+          "Started": "2017-09-06"
         }
       },
       "PlannedTasks": {
-        "Add local repository validation/compiling to DotNetSample sub-class": {
-          "Conceived": "2017-09-05"
-        },
-        "Delete .NET implementation": {
-          "Conceived": "2017-09-05"
-        },
         "Move Java specific files (as opposed to .NET specific files) to a new java package": {
           "Conceived": "2017-09-05"
         },
@@ -29,6 +51,16 @@
         }
       },
       "CompletedTasks": {
+        "Add local repository validation/compiling to DotNetSample sub-class": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-06",
+          "Completed": "2017-09-06"
+        },
+        "Add local repository file copying to DotNetSample sub-class": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-06",
+          "Completed": "2017-09-06"
+        },
         "Clone .NET sample repositories": {
           "Conceived": "2017-09-05",
           "Started": "2017-09-05",
@@ -53,27 +85,6 @@
     }
   },
   "PlannedTasks": {
-    "ExpandableStringEnum": {
-      "Conceived": "2017-09-05",
-      "Started": "2017-09-05",
-      "PlannedTasks": {
-        "Merge latest changes into branch": {
-          "Conceived": "2017-09-05"
-        },
-        "Get all tests to pass": {
-          "Conceived": "2017-09-05"
-        },
-        "Generate inners to ensure they look the same except for ExpandableStringEnum changes": {
-          "Conceived": "2017-09-05"
-        },
-        "Push changes to autorest Java generator repository/pull request": {
-          "Conceived": "2017-09-05"
-        },
-        "Merge pull request": {
-          "Conceived": "2017-09-05"
-        }
-      }
-    },
     "client-runtime": {
       "Conceived": "2017-09-05"
     },
