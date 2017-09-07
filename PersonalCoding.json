@@ -5,15 +5,12 @@
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Add StandardErrorWriteStream": {
+        "Add README.md file to repository": {
           "Conceived": "2017-09-05",
           "Started": "2017-09-06"
         }
       },
       "PlannedTasks": {
-        "Add README.md file to repository": {
-          "Conceived": "2017-09-05"
-        },
         "Add where() to Iterator": {
           "Conceived": "2017-09-05"
         },
@@ -26,21 +23,32 @@
         "Add map() to Iterable": {
           "Conceived": "2017-09-05"
         },
+        "Add instanceOf() to Iterator": {
+          "Conceived": "2017-09-06"
+        },
+        "Add instanceOf() to Iterable": {
+          "Conceived": "2017-09-06"
+        },
         "Publish maven package": {
           "Conceived": "2017-09-05"
-        },
-        "Add Producer interface": {
-          "Conceived": "2017-09-05",
-          "Notes": "This is my equivalent of ReactiveX's Observable. It uses a subscribe() method."
         },
         "Convert Orc Battle game (original in C) to Java": {
           "Conceived": "2017-09-05"
         },
         "Convert Text Adventure game (original in C) to Java": {
           "Conceived": "2017-09-05"
+        },
+        "Add Producer interface": {
+          "Conceived": "2017-09-05",
+          "Notes": "This is my equivalent of ReactiveX's Observable. It uses a subscribe() method."
         }
       },
       "CompletedTasks": {
+        "Add StandardErrorWriteStream": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-06",
+          "Completed": "2017-09-06"
+        },
         "Add ReadStream, ReadStreamBase, StandardInputReadStream, and InMemoryReadStream": {
           "Conceived": "2017-09-05",
           "Started": "2017-09-06",
