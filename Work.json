@@ -5,15 +5,15 @@
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Generate inners to ensure they look the same except for ExpandableStringEnum changes": {
+        "Merge autorest.java pull request": {
           "Conceived": "2017-09-05",
           "Started": "2017-09-07"
         }
       },
       "PlannedTasks": {
-        "Merge autorest.java pull request": {
+        "Generate inners to ensure they look the same except for ExpandableStringEnum changes": {
           "Conceived": "2017-09-05",
-          "Notes": "The pull request is currently failing because the autorest-clientruntime-for-java pull request changes haven't been published in a snapshot package yet. Once that happens, then the pull request will start passing."
+          "Notes": "We're going to wait to do this until we regenerate inners for 2.0"
         }
       },
       "CompletedTasks": {
@@ -34,22 +34,33 @@
         }
       }
     },
-    "sample-repo-gen-tool": {
+    "Setup work VM on work laptop": {
       "Conceived": "2017-09-05",
-      "Started": "2017-09-05",
+      "Started": "2017-09-07",
       "ActiveTasks": {
-        "Delete .NET implementation": {
-          "Conceived": "2017-09-05",
-          "Started": "2017-09-06"
+        "Install VS Code": {
+          "Conceived": "2017-09-07",
+          "Started": "2017-09-07"
         }
       },
       "PlannedTasks": {
-        "Move Java specific files (as opposed to .NET specific files) to a new java package": {
-          "Conceived": "2017-09-05"
+        "Install IntelliJ": {
+          "Conceived": "2017-09-07"
         },
-        "Move .NET specific files to a new java package": {
-          "Conceived": "2017-09-05"
+        "Clone sample-repo-gen-tool repository": {
+          "Conceived": "2017-09-07"
         },
+        "Clone autorest-clientruntime-for-java": {
+          "Conceived": "2017-09-07"
+        }
+      }
+    }
+  },
+  "PlannedTasks": {
+    "sample-repo-gen-tool": {
+      "Conceived": "2017-09-05",
+      "Started": "2017-09-05",
+      "PlannedTasks": {
         "Make scriptable": {
           "Conceived": "2017-09-05",
           "Notes": "Each operation should have a simple command method that does a large piece of work (make repository public, populate sample local repository, etc.)"
@@ -60,6 +71,21 @@
         }
       },
       "CompletedTasks": {
+        "Move Java specific files (as opposed to .NET specific files) to a new java package": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-07",
+          "Completed": "2017-09-07"
+        },
+        "Move .NET specific files to a new java package": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-07",
+          "Completed": "2017-09-07"
+        },
+        "Delete .NET implementation": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-06",
+          "Completed": "2017-09-07"
+        },
         "Add local repository validation/compiling to DotNetSample sub-class": {
           "Conceived": "2017-09-05",
           "Started": "2017-09-06",
@@ -91,9 +117,7 @@
           "Completed": "2017-09-05"
         }
       }
-    }
-  },
-  "PlannedTasks": {
+    },
     "autorest-clientruntime-for-java": {
       "Conceived": "2017-09-05",
       "PlannedTasks": {
@@ -101,9 +125,6 @@
           "Conceived": "2017-09-05"
         }
       }
-    },
-    "Setup work VM on work laptop": {
-      "Conceived": "2017-09-05"
     }
   },
   "CompletedTasks": {
