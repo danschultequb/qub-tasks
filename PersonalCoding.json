@@ -5,15 +5,12 @@
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Add instanceOf() to Iterator": {
+        "Add instanceOf() to Iterable": {
           "Conceived": "2017-09-06",
           "Started": "2017-09-08"
         }
       },
       "PlannedTasks": {
-        "Add instanceOf() to Iterable": {
-          "Conceived": "2017-09-06"
-        },
         "Add TextReadStream": {
           "Conceived": "2017-09-07"
         },
@@ -38,6 +35,11 @@
         }
       },
       "CompletedTasks": {
+        "Add instanceOf() to Iterator": {
+          "Conceived": "2017-09-06",
+          "Started": "2017-09-08",
+          "Completed": "2017-09-08"
+        },
         "Change StandardOutputWriteStream and StandardErrorWriteStream classes to TextWriteStreams": {
           "Conceived": "2017-09-07",
           "Started": "2017-09-07",
