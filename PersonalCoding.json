@@ -17,6 +17,10 @@
         "Change StandardInputReadStream to TextReadStream": {
           "Conceived": "2017-09-07"
         },
+        "Update pom.xml properties": {
+          "Conceived": "2017-09-08",
+          "Notes": "https://maven.apache.org/guides/mini/guide-central-repository-upload.html"
+        },
         "Publish maven package": {
           "Conceived": "2017-09-05"
         },
