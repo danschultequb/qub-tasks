@@ -5,32 +5,14 @@
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Add map() to Iterator": {
-          "Conceived": "2017-09-05",
-          "Started": "2017-09-07"
+        "Add instanceOf() to Iterator": {
+          "Conceived": "2017-09-06",
+          "Started": "2017-09-08"
         }
       },
       "PlannedTasks": {
-        "Add map() to Iterable": {
-          "Conceived": "2017-09-05"
-        },
-        "Add instanceOf() to Iterator": {
-          "Conceived": "2017-09-06"
-        },
         "Add instanceOf() to Iterable": {
           "Conceived": "2017-09-06"
-        },
-        "Rename WriteStream to ByteWriteStream and remove methods with CharacterEncoding": {
-          "Conceived": "2017-09-07"
-        },
-        "Rename ReadStream to ByteReadStream": {
-          "Conceived": "2017-09-07"
-        },
-        "Add TextWriteStream": {
-          "Conceived": "2017-09-07"
-        },
-        "Change StandardOutputWriteStream and StandardErrorWriteStream classes to TextWriteStreams": {
-          "Conceived": "2017-09-07"
         },
         "Add TextReadStream": {
           "Conceived": "2017-09-07"
@@ -56,6 +38,36 @@
         }
       },
       "CompletedTasks": {
+        "Change StandardOutputWriteStream and StandardErrorWriteStream classes to TextWriteStreams": {
+          "Conceived": "2017-09-07",
+          "Started": "2017-09-07",
+          "Completed": "2017-09-08"
+        },
+        "Add TextWriteStream": {
+          "Conceived": "2017-09-07",
+          "Started": "2017-09-07",
+          "Completed": "2017-09-07"
+        },
+        "Rename ReadStream to ByteReadStream": {
+          "Conceived": "2017-09-07",
+          "Started": "2017-09-07",
+          "Completed": "2017-09-07"
+        },
+        "Rename WriteStream to ByteWriteStream and remove methods with CharacterEncoding": {
+          "Conceived": "2017-09-07",
+          "Started": "2017-09-07",
+          "Completed": "2017-09-07"
+        },
+        "Add map() to Iterable": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-07",
+          "Completed": "2017-09-07"
+        },
+        "Add map() to Iterator": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-07",
+          "Completed": "2017-09-07"
+        },
         "Add skip() to Iterable": {
           "Conceived": "2017-09-07",
           "Started": "2017-09-07",
