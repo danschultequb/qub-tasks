@@ -5,27 +5,6 @@
       "Conceived": "2017-09-07",
       "Started": "2017-09-08",
       "Notes": "Pull request is out"
-    },
-    "Setup work VM on work laptop": {
-      "Conceived": "2017-09-05",
-      "Started": "2017-09-07",
-      "ActiveTasks": {
-        "Install VS Code": {
-          "Conceived": "2017-09-07",
-          "Started": "2017-09-07"
-        }
-      },
-      "PlannedTasks": {
-        "Install IntelliJ": {
-          "Conceived": "2017-09-07"
-        },
-        "Clone sample-repo-gen-tool repository": {
-          "Conceived": "2017-09-07"
-        },
-        "Clone autorest-clientruntime-for-java": {
-          "Conceived": "2017-09-07"
-        }
-      }
     }
   },
   "PlannedTasks": {
@@ -146,6 +125,33 @@
     }
   },
   "CompletedTasks": {
+    "Setup work VM on work laptop": {
+      "Conceived": "2017-09-05",
+      "Started": "2017-09-07",
+      "Completed": "2017-09-11",
+      "CompletedTasks": {
+        "Install IntelliJ": {
+          "Conceived": "2017-09-07",
+          "Started": "2017-09-11",
+          "Completed": "2017-09-11"
+        },
+        "Clone sample-repo-gen-tool repository": {
+          "Conceived": "2017-09-07",
+          "Started": "2017-09-11",
+          "Completed": "2017-09-11"
+        },
+        "Clone autorest-clientruntime-for-java": {
+          "Conceived": "2017-09-07",
+          "Started": "2017-09-11",
+          "Completed": "2017-09-11"
+        },
+        "Install VS Code": {
+          "Conceived": "2017-09-07",
+          "Started": "2017-09-07",
+          "Completed": "2017-09-11"
+        }
+      }
+    },
     "RestProxy - URL encoding": {
       "Conceived": "2017-09-07",
       "Started": "2017-09-08",
