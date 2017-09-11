@@ -31,9 +31,9 @@
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Update site plan and drainage review to include paved public right-of-way sections": {
-          "Conceived": "2017-09-05",
-          "Started": "2017-09-05"
+        "Contact JD Hunt about what flow/drainage BMPs will be applied to the driveway extension": {
+          "Conceived": "2017-09-10",
+          "Started": "2017-09-11"
         }
       },
       "PlannedTasks": {
@@ -51,6 +51,13 @@
         },
         "Schedule new day for driveway installation": {
           "Conceived": "2017-09-05"
+        }
+      },
+      "CompletedTasks": {
+        "Update site plan and drainage review to include paved public right-of-way sections": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-05",
+          "Completed": "2017-09-10"
         }
       }
     }
