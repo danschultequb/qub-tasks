@@ -1,16 +1,12 @@
 {
   "$schema": "./tasks.schema.json",
   "ActiveTasks": {
-    "RestProxy - ErrorResponse annotation": {
+    "RestProxy - Long running operations": {
       "Conceived": "2017-09-07",
-      "Started": "2017-09-08",
-      "Notes": "Pull request is out"
+      "Started": "2017-09-11"
     }
   },
   "PlannedTasks": {
-    "RestProxy - Long running operations": {
-      "Conceived": "2017-09-07"
-    },
     "RestProxy - AzureHost annotation": {
       "Conceived": "2017-09-07"
     },
@@ -125,6 +121,11 @@
     }
   },
   "CompletedTasks": {
+    "RestProxy - ErrorResponse annotation": {
+      "Conceived": "2017-09-07",
+      "Started": "2017-09-08",
+      "Completed": "2017-09-11"
+    },
     "Setup work VM on work laptop": {
       "Conceived": "2017-09-05",
       "Started": "2017-09-07",
