@@ -5,15 +5,12 @@
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Create Random number generator abstraction": {
-          "Conceived": "2017-09-10",
+        "Convert Orc Battle game (original in C) to Java": {
+          "Conceived": "2017-09-05",
           "Started": "2017-09-11"
         }
       },
       "PlannedTasks": {
-        "Convert Orc Battle game (original in C) to Java": {
-          "Conceived": "2017-09-05"
-        },
         "Convert Text Adventure game (original in C) to Java": {
           "Conceived": "2017-09-05"
         },
@@ -27,6 +24,11 @@
         }
       },
       "CompletedTasks": {
+        "Create Random number generator abstraction": {
+          "Conceived": "2017-09-10",
+          "Started": "2017-09-11",
+          "Completed": "2017-09-11"
+        },
         "Convert Guess My Number game (original in C) to Java": {
           "Conceived": "2017-09-06",
           "Started": "2017-09-10",
