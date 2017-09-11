@@ -1,9 +1,10 @@
 {
   "$schema": "./tasks.schema.json",
   "ActiveTasks": {
-    "RestProxy - Non-string request and response bodies": {
+    "RestProxy - ErrorResponse annotation": {
       "Conceived": "2017-09-07",
-      "Started": "2017-09-07"
+      "Started": "2017-09-08",
+      "Notes": "Pull request is out"
     },
     "Setup work VM on work laptop": {
       "Conceived": "2017-09-05",
@@ -32,12 +33,6 @@
       "Conceived": "2017-09-07"
     },
     "RestProxy - AzureHost annotation": {
-      "Conceived": "2017-09-07"
-    },
-    "RestProxy - URL encoding": {
-      "Conceived": "2017-09-07"
-    },
-    "RestProxy - ErrorResponse annotation": {
       "Conceived": "2017-09-07"
     },
     "sample-repo-gen-tool": {
@@ -151,6 +146,16 @@
     }
   },
   "CompletedTasks": {
+    "RestProxy - URL encoding": {
+      "Conceived": "2017-09-07",
+      "Started": "2017-09-08",
+      "Completed": "2017-09-08"
+    },
+    "RestProxy - Non-string request and response bodies": {
+      "Conceived": "2017-09-07",
+      "Started": "2017-09-07",
+      "Completed": "2017-09-08"
+    },
     "Fix key-vault-java-manage-key-vaults sample pom.xml file": {
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
