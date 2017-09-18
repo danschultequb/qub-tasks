@@ -5,12 +5,45 @@
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Convert Text Adventure game (original in C) to Java": {
-          "Conceived": "2017-09-05",
-          "Started": "2017-09-17"
+        "Add FileSystem": {
+          "Conceived": "2017-09-18",
+          "Started": "2017-09-18"
         }
       },
       "PlannedTasks": {
+        "Add Path": {
+          "Conceived": "2017-09-18"
+        },
+        "Add Root": {
+          "Conceived": "2017-09-18"
+        },
+        "Add Folder": {
+          "Conceived": "2017-09-18"
+        },
+        "Add InMemoryFileSystem": {
+          "Conceived": "2017-09-18"
+        },
+        "Add DesktopFileSystem": {
+          "Conceived": "2017-09-18"
+        },
+        "Add AndroidFileSystem": {
+          "Conceived": "2017-09-18"
+        },
+        "Add FileSystemWatcher": {
+          "Conceived": "2017-09-18"
+        },
+        "Add DesktopPlatform": {
+          "Conceived": "2017-09-18"
+        },
+        "Add AndroidPlatform": {
+          "Conceived": "2017-09-18"
+        },
+        "Add DesktopWindow": {
+          "Conceived": "2017-09-18"
+        },
+        "Add AndroidWindow": {
+          "Conceived": "2017-09-18"
+        },
         "Add Producer interface": {
           "Conceived": "2017-09-05",
           "Notes": "This is my equivalent of ReactiveX's Observable. It uses a subscribe() method."
@@ -21,6 +54,11 @@
         }
       },
       "CompletedTasks": {
+        "Convert Text Adventure game (original in C) to Java": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-17",
+          "Completed": "2017-09-18"
+        },
         "Convert Orc Battle game (original in C) to Java": {
           "Conceived": "2017-09-05",
           "Started": "2017-09-11",
