@@ -4,12 +4,7 @@
     "Yardwork": {
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
-      "ActiveTasks": {
-        "Clear morning glory away from bamboo": {
-          "Conceived": "2017-09-05",
-          "Started": "2017-09-05"
-        }
-      },
+      "ActiveTasks": {},
       "PlannedTasks": {
         "Wood chip pile": {
           "Conceived": "2017-09-05",
@@ -25,15 +20,22 @@
         "Learn how to properly install backyard walking path with woodchips": {
           "Conceived": "2017-09-05"
         }
+      },
+      "CompletedTasks": {
+        "Clear morning glory away from bamboo": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-05",
+          "Completed": "2017-09-11"
+        }
       }
     },
     "Driveway extension": {
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Contact JD Hunt about what flow/drainage BMPs will be applied to the driveway extension": {
-          "Conceived": "2017-09-10",
-          "Started": "2017-09-11"
+        "Call Jarrett about what a drainage narrative is": {
+          "Conceived": "2017-09-12",
+          "Started": "2017-09-12"
         }
       },
       "PlannedTasks": {
@@ -54,6 +56,11 @@
         }
       },
       "CompletedTasks": {
+        "Contact JD Hunt about what flow/drainage BMPs will be applied to the driveway extension": {
+          "Conceived": "2017-09-10",
+          "Started": "2017-09-11",
+          "Completed": "2017-09-11"
+        },
         "Update site plan and drainage review to include paved public right-of-way sections": {
           "Conceived": "2017-09-05",
           "Started": "2017-09-05",

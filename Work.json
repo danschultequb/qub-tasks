@@ -121,6 +121,11 @@
     }
   },
   "CompletedTasks": {
+    "RestProxy - MissingRequiredAnnotationException": {
+      "Conceived": "2017-09-13",
+      "Started": "2017-09-13",
+      "Completed": "2017-09-13"
+    },
     "RestProxy - ErrorResponse annotation": {
       "Conceived": "2017-09-07",
       "Started": "2017-09-08",

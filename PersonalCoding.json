@@ -5,15 +5,12 @@
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Convert Orc Battle game (original in C) to Java": {
+        "Convert Text Adventure game (original in C) to Java": {
           "Conceived": "2017-09-05",
-          "Started": "2017-09-11"
+          "Started": "2017-09-17"
         }
       },
       "PlannedTasks": {
-        "Convert Text Adventure game (original in C) to Java": {
-          "Conceived": "2017-09-05"
-        },
         "Add Producer interface": {
           "Conceived": "2017-09-05",
           "Notes": "This is my equivalent of ReactiveX's Observable. It uses a subscribe() method."
@@ -24,6 +21,11 @@
         }
       },
       "CompletedTasks": {
+        "Convert Orc Battle game (original in C) to Java": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-11",
+          "Completed": "2017-09-17"
+        },
         "Create Random number generator abstraction": {
           "Conceived": "2017-09-10",
           "Started": "2017-09-11",
