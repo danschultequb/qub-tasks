@@ -3,16 +3,23 @@
   "ActiveTasks": {
     "RestProxy - Long running operations": {
       "Conceived": "2017-09-07",
-      "Started": "2017-09-11"
-    }
-  },
-  "PlannedTasks": {
+      "Started": "2017-09-11",
+      "Notes": "In pull request"
+    },
     "RestProxy - AzureHost annotation": {
-      "Conceived": "2017-09-07"
+      "Conceived": "2017-09-07",
+      "Started": "2017-09-19",
+      "Notes": "In pull request"
     },
     "sample-repo-gen-tool": {
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
+      "ActiveTasks": {
+        "Automatically create sample repositories that don't already exist": {
+          "Conceived": "2017-09-19",
+          "Started": "2017-09-19"
+        }
+      },
       "PlannedTasks": {
         "Add sample data (owner and repository path) to sample source code files": {
           "Conceived": "2017-09-07"
@@ -86,7 +93,9 @@
           "Completed": "2017-09-05"
         }
       }
-    },
+    }
+  },
+  "PlannedTasks": {
     "ExpandableStringEnum": {
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
