@@ -1,15 +1,9 @@
 {
   "$schema": "./tasks.schema.json",
   "ActiveTasks": {
-    "RestProxy - Long running operations": {
-      "Conceived": "2017-09-07",
-      "Started": "2017-09-11",
-      "Notes": "In pull request"
-    },
-    "RestProxy - AzureHost annotation": {
-      "Conceived": "2017-09-07",
-      "Started": "2017-09-19",
-      "Notes": "In pull request"
+    "Study azure-sdk-for-java": {
+      "Conceived": "2017-09-21",
+      "Started": "2017-09-21"
     },
     "sample-repo-gen-tool": {
       "Conceived": "2017-09-05",
@@ -130,6 +124,16 @@
     }
   },
   "CompletedTasks": {
+    "RestProxy - Long running operations": {
+      "Conceived": "2017-09-07",
+      "Started": "2017-09-11",
+      "Completed": "2017-09-21"
+    },
+    "RestProxy - AzureHost annotation": {
+      "Conceived": "2017-09-07",
+      "Started": "2017-09-19",
+      "Completed": "2017-09-21"
+    },
     "RestProxy - MissingRequiredAnnotationException": {
       "Conceived": "2017-09-13",
       "Started": "2017-09-13",

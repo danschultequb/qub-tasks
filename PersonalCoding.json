@@ -8,24 +8,29 @@
         "Add FileSystem": {
           "Conceived": "2017-09-18",
           "Started": "2017-09-18"
+        },
+        "Add Path": {
+          "Conceived": "2017-09-18",
+          "Started": "2017-09-18"
+        },
+        "Add Root": {
+          "Conceived": "2017-09-18",
+          "Started": "2017-09-18"
+        },
+        "Add Folder": {
+          "Conceived": "2017-09-18",
+          "Started": "2017-09-18"
+        },
+        "Add InMemoryFileSystem": {
+          "Conceived": "2017-09-18",
+          "Started": "2017-09-18"
+        },
+        "Add JavaFileSystem": {
+          "Conceived": "2017-09-18",
+          "Started": "2017-09-18"
         }
       },
       "PlannedTasks": {
-        "Add Path": {
-          "Conceived": "2017-09-18"
-        },
-        "Add Root": {
-          "Conceived": "2017-09-18"
-        },
-        "Add Folder": {
-          "Conceived": "2017-09-18"
-        },
-        "Add InMemoryFileSystem": {
-          "Conceived": "2017-09-18"
-        },
-        "Add DesktopFileSystem": {
-          "Conceived": "2017-09-18"
-        },
         "Add AndroidFileSystem": {
           "Conceived": "2017-09-18"
         },
@@ -46,7 +51,7 @@
         },
         "Add Producer interface": {
           "Conceived": "2017-09-05",
-          "Notes": "This is my equivalent of ReactiveX's Observable. It uses a subscribe() method."
+          "Notes": "This is my equivalent of ReactiveX's Observable. It will use a subscribe() method."
         },
         "Improve TextReadStreamBase.readLine()": {
           "Conceived": "2017-09-10",
