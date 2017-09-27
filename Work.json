@@ -1,10 +1,6 @@
 {
   "$schema": "./tasks.schema.json",
   "ActiveTasks": {
-    "Study azure-sdk-for-java": {
-      "Conceived": "2017-09-21",
-      "Started": "2017-09-21"
-    },
     "sample-repo-gen-tool": {
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
@@ -15,12 +11,15 @@
         }
       },
       "PlannedTasks": {
-        "Add sample data (owner and repository path) to sample source code files": {
-          "Conceived": "2017-09-07"
+        "Remove 'example-' from Java template files": {
+          "Conceived": "2017-09-27"
         },
         "Pull out settings to settings.json file": {
           "Conceived": "2017-09-07",
           "Notes": "This will require some code reworking to reference the values that are read from the settings.json file instead of referencing constant values."
+        },
+        "Add dependency reducer that looks at a Java file's imports and compares them against a hard-coded map": {
+          "Conceived": "2017-09-27"
         },
         "Create settings-schema.json file": {
           "Conceived": "2017-09-07"
@@ -31,6 +30,12 @@
         "Use environment variables for JAVA_HOME and MAVEN_HOME if they're not specified in settings.json file": {
           "Conceived": "2017-09-07"
         },
+        "Add dependency reducer for .NET samples": {
+          "Conceived": "2017-09-27"
+        },
+        "Reduce assets in .NET samples to those that are required": {
+          "Conceived": "2017-09-27"
+        },
         "Make scriptable": {
           "Conceived": "2017-09-05",
           "Notes": "Each operation should have a simple command method that does a large piece of work (make repository public, populate sample local repository, etc.)"
@@ -38,6 +43,12 @@
         "Add summary at end of execution": {
           "Conceived": "2017-09-07",
           "Notes": "How many sample repositories were compiled, how many failed, how many were pushed, how many repos were made public"
+        },
+        "Remove static variables in JavaSample and DotNetSample classes in favor of SampleConfiguration(?) object": {
+          "Conceived": "2017-09-27"
+        },
+        "Add sample data (owner and repository path) to sample source code files": {
+          "Conceived": "2017-09-07"
         }
       },
       "CompletedTasks": {
@@ -124,6 +135,11 @@
     }
   },
   "CompletedTasks": {
+    "Study azure-sdk-for-java": {
+      "Conceived": "2017-09-21",
+      "Started": "2017-09-21",
+      "Completed": "2017-09-26"
+    },
     "RestProxy - Long running operations": {
       "Conceived": "2017-09-07",
       "Started": "2017-09-11",
