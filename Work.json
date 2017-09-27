@@ -24,6 +24,10 @@
         "Use environment variables for JAVA_HOME and MAVEN_HOME if they're not specified in settings.json file": {
           "Conceived": "2017-09-07"
         },
+        "Add summary at end of execution": {
+          "Conceived": "2017-09-07",
+          "Notes": "How many sample repositories were compiled, how many failed, how many were pushed, how many repos were made public"
+        },
         "Update template pom.xml dependency versions based on pom.xml in azure-sdk-for-java": {
           "Conceived": "2017-09-27"
         },
@@ -42,10 +46,6 @@
         "Make scriptable": {
           "Conceived": "2017-09-05",
           "Notes": "Each operation should have a simple command method that does a large piece of work (make repository public, populate sample local repository, etc.)"
-        },
-        "Add summary at end of execution": {
-          "Conceived": "2017-09-07",
-          "Notes": "How many sample repositories were compiled, how many failed, how many were pushed, how many repos were made public"
         },
         "Remove static variables in JavaSample and DotNetSample classes in favor of SampleConfiguration(?) object": {
           "Conceived": "2017-09-27"
