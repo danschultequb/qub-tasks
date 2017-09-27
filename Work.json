@@ -5,36 +5,20 @@
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Remove 'example-' from Java template files": {
-          "Conceived": "2017-09-27",
-          "Started": "2017-09-27"
+        "Add summary at end of execution": {
+          "Conceived": "2017-09-07",
+          "Started": "2017-09-27",
+          "Notes": "How many sample repositories were compiled, how many failed, how many were pushed, how many repos were made public"
         }
       },
       "PlannedTasks": {
-        "Pull out settings to settings.json file": {
-          "Conceived": "2017-09-07",
-          "Notes": "This will require some code reworking to reference the values that are read from the settings.json file instead of referencing constant values."
-        },
-        "Create settings-schema.json file": {
-          "Conceived": "2017-09-07"
-        },
-        "Add settings.json file to .gitignore file so that each person will have their own": {
-          "Conceived": "2017-09-07"
-        },
-        "Use environment variables for JAVA_HOME and MAVEN_HOME if they're not specified in settings.json file": {
-          "Conceived": "2017-09-07"
-        },
-        "Add summary at end of execution": {
-          "Conceived": "2017-09-07",
-          "Notes": "How many sample repositories were compiled, how many failed, how many were pushed, how many repos were made public"
+        "Add dependency reducer that looks at a Java file's imports and compares them against a hard-coded map": {
+          "Conceived": "2017-09-27"
         },
         "Update template pom.xml dependency versions based on pom.xml in azure-sdk-for-java": {
           "Conceived": "2017-09-27"
         },
         "Update template .csproj package versions based on .csproj in azure-libraries-for-net": {
-          "Conceived": "2017-09-27"
-        },
-        "Add dependency reducer that looks at a Java file's imports and compares them against a hard-coded map": {
           "Conceived": "2017-09-27"
         },
         "Add dependency reducer for .NET samples": {
@@ -55,6 +39,32 @@
         }
       },
       "CompletedTasks": {
+        "Pull out settings to settings.json file": {
+          "Conceived": "2017-09-07",
+          "Started": "2017-09-27",
+          "Completed": "2017-09-27",
+          "Notes": "This will require some code reworking to reference the values that are read from the settings.json file instead of referencing constant values."
+        },
+        "Create settings-schema.json file": {
+          "Conceived": "2017-09-07",
+          "Started": "2017-09-27",
+          "Completed": "2017-09-27"
+        },
+        "Add settings.json file to .gitignore file so that each person will have their own": {
+          "Conceived": "2017-09-07",
+          "Started": "2017-09-27",
+          "Completed": "2017-09-27"
+        },
+        "Use environment variables for JAVA_HOME and MAVEN_HOME if they're not specified in settings.json file": {
+          "Conceived": "2017-09-07",
+          "Started": "2017-09-27",
+          "Completed": "2017-09-27"
+        },
+        "Remove 'example-' from Java template files": {
+          "Conceived": "2017-09-27",
+          "Started": "2017-09-27",
+          "Completed": "2017-09-27"
+        },
         "Automatically create sample repositories that don't already exist": {
           "Conceived": "2017-09-19",
           "Started": "2017-09-19",
