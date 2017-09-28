@@ -5,16 +5,12 @@
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Add summary at end of execution": {
-          "Conceived": "2017-09-07",
-          "Started": "2017-09-27",
-          "Notes": "How many sample repositories were compiled, how many failed, how many were pushed, how many repos were made public"
+        "Add basic profiling and summary analysis": {
+          "Conceived": "2017-09-28",
+          "Started": "2017-09-28"
         }
       },
       "PlannedTasks": {
-        "Add dependency reducer that looks at a Java file's imports and compares them against a hard-coded map": {
-          "Conceived": "2017-09-27"
-        },
         "Update template pom.xml dependency versions based on pom.xml in azure-sdk-for-java": {
           "Conceived": "2017-09-27"
         },
@@ -39,6 +35,17 @@
         }
       },
       "CompletedTasks": {
+        "Add dependency reducer that looks at a Java file's imports and compares them against a hard-coded map": {
+          "Conceived": "2017-09-27",
+          "Started": "2017-09-28",
+          "Completed": "2017-09-28"
+        },
+        "Add summary at end of execution": {
+          "Conceived": "2017-09-07",
+          "Started": "2017-09-27",
+          "Completed": "2017-09-28",
+          "Notes": "How many sample repositories were compiled, how many failed, how many were pushed, how many repos were made public"
+        },
         "Pull out settings to settings.json file": {
           "Conceived": "2017-09-07",
           "Started": "2017-09-27",
