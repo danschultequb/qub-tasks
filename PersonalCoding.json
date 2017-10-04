@@ -1,46 +1,102 @@
 {
   "$schema": "./tasks.schema.json",
   "ActiveTasks": {
+    "qub-java-delete": {
+      "Conceived": "2017-10-01",
+      "Started": "2017-10-01",
+      "ActiveTasks": {
+        "Show help message if '-?' is passed as an argument": {
+          "Conceived": "2017-10-01",
+          "Started": "2017-10-04"
+        }
+      },
+      "PlannedTasks": {
+        "Delete paths with question mark (?)": {
+          "Conceived": "2017-10-04"
+        },
+        "Delete paths with star (*)": {
+          "Conceived": "2017-10-04"
+        },
+        "Delete paths with double-star (**)": {
+          "Conceived": "2017-10-04"
+        }
+      },
+      "CompletedTasks": {
+        "100% test coverage": {
+          "Conceived": "2017-10-04",
+          "Started": "2017-10-04",
+          "Completed": "2017-10-04"
+        },
+        "Delete file": {
+          "Conceived": "2017-10-01",
+          "Started": "2017-10-04",
+          "Completed": "2017-10-04"
+        },
+        "Delete folder": {
+          "Conceived": "2017-10-01",
+          "Started": "2017-10-04",
+          "Completed": "2017-10-04"
+        },
+        "Show help message if no arguments are provided": {
+          "Conceived": "2017-10-01",
+          "Started": "2017-10-04",
+          "Completed": "2017-10-04"
+        },
+        "Parse path to delete from command line": {
+          "Conceived": "2017-10-01",
+          "Started": "2017-10-04",
+          "Completed": "2017-10-04"
+        },
+        "Setup repository basics": {
+          "Conceived": "2017-10-01",
+          "Started": "2017-10-01",
+          "Completed": "2017-10-04"
+        }
+      }
+    },
     "qub-java": {
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Add FileSystem": {
-          "Conceived": "2017-09-18",
-          "Started": "2017-09-18"
-        },
-        "Add Path": {
-          "Conceived": "2017-09-18",
-          "Started": "2017-09-18"
-        },
-        "Add Root": {
-          "Conceived": "2017-09-18",
-          "Started": "2017-09-18"
-        },
-        "Add Folder": {
-          "Conceived": "2017-09-18",
-          "Started": "2017-09-18"
-        },
-        "Add InMemoryFileSystem": {
-          "Conceived": "2017-09-18",
-          "Started": "2017-09-18"
-        },
-        "Add JavaFileSystem": {
-          "Conceived": "2017-09-18",
-          "Started": "2017-09-18"
+        "Make Path.parse() reject a path if it has a '?' or a '*' in it": {
+          "Conceived": "2017-10-04",
+          "Started": "2017-10-04"
         }
       },
       "PlannedTasks": {
+        "Add PathPattern class": {
+          "Conceived": "2017-10-04"
+        },
+        "Add FileSystem.getFiles(PathPattern)": {
+          "Conceived": "2017-10-04"
+        },
+        "Update FileSystem.getFiles(String) to parse as Path and then as a PathPattern": {
+          "Conceived": "2017-10-04"
+        },
+        "Add FileSystem.getFolders(PathPattern)": {
+          "Conceived": "2017-10-04"
+        },
+        "Update FileSystem.getFolders(String) to parse as Path and then as a PathPattern": {
+          "Conceived": "2017-10-04"
+        },
+        "Add FileSystem.getFilesAndFolders(PathPattern)": {
+          "Conceived": "2017-10-04"
+        },
+        "Update FileSystem.getFilesAndFolders(String) to parse as Path and then as a PathPattern": {
+          "Conceived": "2017-10-04"
+        },
+        "Make Root not inherit from Folder": {
+          "Conceived": "2017-10-04",
+          "Notes": "You can delete a folder, but you can't delete a root. Therefore a root is not a folder"
+        },
+        "Add AsyncIterator interface": {
+          "Conceived": "2017-09-05",
+          "Notes": "This is my equivalent of ReactiveX's Observable. It will use a onNext(Action1<T>) method."
+        },
         "Add AndroidFileSystem": {
           "Conceived": "2017-09-18"
         },
         "Add FileSystemWatcher": {
-          "Conceived": "2017-09-18"
-        },
-        "Add DesktopPlatform": {
-          "Conceived": "2017-09-18"
-        },
-        "Add AndroidPlatform": {
           "Conceived": "2017-09-18"
         },
         "Add DesktopWindow": {
@@ -49,16 +105,47 @@
         "Add AndroidWindow": {
           "Conceived": "2017-09-18"
         },
-        "Add Producer interface": {
-          "Conceived": "2017-09-05",
-          "Notes": "This is my equivalent of ReactiveX's Observable. It will use a subscribe() method."
-        },
         "Improve TextReadStreamBase.readLine()": {
           "Conceived": "2017-09-10",
           "Notes": "My current implementation is very primitive. In order for this function to scale, I'll need a decent implementation."
         }
       },
       "CompletedTasks": {
+        "Add canDelete() to InMemoryFiles and InMemoryFolders": {
+          "Conceived": "2017-10-04",
+          "Started": "2017-10-04",
+          "Completed": "2017-10-04"
+        },
+        "Add FileSystem": {
+          "Conceived": "2017-09-18",
+          "Started": "2017-09-18",
+          "Completed": "2017-10-01"
+        },
+        "Add Path": {
+          "Conceived": "2017-09-18",
+          "Started": "2017-09-18",
+          "Completed": "2017-10-01"
+        },
+        "Add Root": {
+          "Conceived": "2017-09-18",
+          "Started": "2017-09-18",
+          "Completed": "2017-10-01"
+        },
+        "Add Folder": {
+          "Conceived": "2017-09-18",
+          "Started": "2017-09-18",
+          "Completed": "2017-10-01"
+        },
+        "Add InMemoryFileSystem": {
+          "Conceived": "2017-09-18",
+          "Started": "2017-09-18",
+          "Completed": "2017-10-01"
+        },
+        "Add JavaFileSystem": {
+          "Conceived": "2017-09-18",
+          "Started": "2017-09-18",
+          "Completed": "2017-10-01"
+        },
         "Convert Text Adventure game (original in C) to Java": {
           "Conceived": "2017-09-05",
           "Started": "2017-09-17",
@@ -171,17 +258,17 @@
           "Completed": "2017-09-06"
         }
       }
-    },
+    }
+  },
+  "PlannedTasks": {
     "qub-typescript-csv-vscode": {
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
-      "ActiveTasks": {
+      "PlannedTasks": {
         "Add row/column to status bar": {
           "Conceived": "2017-09-05",
           "Started": "2017-09-05"
-        }
-      },
-      "PlannedTasks": {
+        },
         "Add option to turn off row/column status bar item": {
           "Conceived": "2017-09-05"
         },
@@ -190,9 +277,7 @@
           "Notes": "This can actually really improve performance."
         }
       }
-    }
-  },
-  "PlannedTasks": {
+    },
     "qub-typescript-vscode": {
       "Conceived": "2017-09-05",
       "PlannedTasks": {
