@@ -1,69 +1,27 @@
 {
   "$schema": "./tasks.schema.json",
   "ActiveTasks": {
-    "qub-java-delete": {
-      "Conceived": "2017-10-01",
-      "Started": "2017-10-01",
-      "ActiveTasks": {
-        "Show help message if '-?' is passed as an argument": {
-          "Conceived": "2017-10-01",
-          "Started": "2017-10-04"
-        }
-      },
-      "PlannedTasks": {
-        "Delete paths with question mark (?)": {
-          "Conceived": "2017-10-04"
-        },
-        "Delete paths with star (*)": {
-          "Conceived": "2017-10-04"
-        },
-        "Delete paths with double-star (**)": {
-          "Conceived": "2017-10-04"
-        }
-      },
-      "CompletedTasks": {
-        "100% test coverage": {
-          "Conceived": "2017-10-04",
-          "Started": "2017-10-04",
-          "Completed": "2017-10-04"
-        },
-        "Delete file": {
-          "Conceived": "2017-10-01",
-          "Started": "2017-10-04",
-          "Completed": "2017-10-04"
-        },
-        "Delete folder": {
-          "Conceived": "2017-10-01",
-          "Started": "2017-10-04",
-          "Completed": "2017-10-04"
-        },
-        "Show help message if no arguments are provided": {
-          "Conceived": "2017-10-01",
-          "Started": "2017-10-04",
-          "Completed": "2017-10-04"
-        },
-        "Parse path to delete from command line": {
-          "Conceived": "2017-10-01",
-          "Started": "2017-10-04",
-          "Completed": "2017-10-04"
-        },
-        "Setup repository basics": {
-          "Conceived": "2017-10-01",
-          "Started": "2017-10-01",
-          "Completed": "2017-10-04"
-        }
-      }
-    },
     "qub-java": {
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Make Path.parse() reject a path if it has a '?' or a '*' in it": {
+        "Add MainAsyncRunner and ParallelAsyncRunner variables to Console class": {
           "Conceived": "2017-10-04",
-          "Started": "2017-10-04"
+          "Started": "2017-10-16"
+        },
+        "Add async versions of FileSystem functions": {
+          "Conceived": "2017-10-16",
+          "Started": "2017-10-16"
         }
       },
       "PlannedTasks": {
+        "Add AsyncIterator interface": {
+          "Conceived": "2017-09-05",
+          "Notes": "This is my equivalent of ReactiveX's Observable. It will use an onNext(Action1<T>) method."
+        },
+        "Make Path.parse() reject a path if it has a '?' or a '*' in it": {
+          "Conceived": "2017-10-04"
+        },
         "Add PathPattern class": {
           "Conceived": "2017-10-04"
         },
@@ -89,10 +47,6 @@
           "Conceived": "2017-10-04",
           "Notes": "You can delete a folder, but you can't delete a root. Therefore a root is not a folder"
         },
-        "Add AsyncIterator interface": {
-          "Conceived": "2017-09-05",
-          "Notes": "This is my equivalent of ReactiveX's Observable. It will use a onNext(Action1<T>) method."
-        },
         "Add AndroidFileSystem": {
           "Conceived": "2017-09-18"
         },
@@ -111,6 +65,21 @@
         }
       },
       "CompletedTasks": {
+        "Create MainAsyncRunner class": {
+          "Conceived": "2017-10-04",
+          "Started": "2017-10-16",
+          "Completed": "2017-10-16"
+        },
+        "Create ParallelAsyncRunner class": {
+          "Conceived": "2017-10-04",
+          "Started": "2017-10-16",
+          "Completed": "2017-10-16"
+        },
+        "Create AsyncRunner interface": {
+          "Conceived": "2017-10-04",
+          "Started": "2017-10-08",
+          "Completed": "2017-10-16"
+        },
         "Add canDelete() to InMemoryFiles and InMemoryFolders": {
           "Conceived": "2017-10-04",
           "Started": "2017-10-04",
@@ -261,6 +230,74 @@
     }
   },
   "PlannedTasks": {
+    "qub-java-delete": {
+      "Conceived": "2017-10-01",
+      "Started": "2017-10-01",
+      "PlannedTasks": {
+        "Change to use FileSystem async functions instead of sync versions": {
+          "Conceived": "2017-10-16"
+        },
+        "Delete paths with question mark (?)": {
+          "Conceived": "2017-10-04"
+        },
+        "Delete paths with star (*)": {
+          "Conceived": "2017-10-04"
+        },
+        "Delete paths with double-star (**)": {
+          "Conceived": "2017-10-04"
+        }
+      },
+      "CompletedTasks": {
+        "Show help message if '-?' is passed as an argument": {
+          "Conceived": "2017-10-01",
+          "Started": "2017-10-04",
+          "Completed": "2017-10-06"
+        },
+        "Show help message if '-help' is passed as an argument": {
+          "Conceived": "2017-10-01",
+          "Started": "2017-10-04",
+          "Completed": "2017-10-06"
+        },
+        "100% test coverage": {
+          "Conceived": "2017-10-04",
+          "Started": "2017-10-04",
+          "Completed": "2017-10-04"
+        },
+        "Delete file": {
+          "Conceived": "2017-10-01",
+          "Started": "2017-10-04",
+          "Completed": "2017-10-04"
+        },
+        "Delete folder": {
+          "Conceived": "2017-10-01",
+          "Started": "2017-10-04",
+          "Completed": "2017-10-04"
+        },
+        "Show help message if no arguments are provided": {
+          "Conceived": "2017-10-01",
+          "Started": "2017-10-04",
+          "Completed": "2017-10-04"
+        },
+        "Parse path to delete from command line": {
+          "Conceived": "2017-10-01",
+          "Started": "2017-10-04",
+          "Completed": "2017-10-04"
+        },
+        "Setup repository basics": {
+          "Conceived": "2017-10-01",
+          "Started": "2017-10-01",
+          "Completed": "2017-10-04"
+        }
+      }
+    },
+    "qub-java-android": {
+      "Conceived": "2017-10-16",
+      "PlannedTasks": {
+        "Create repository": {
+          "Conceived": "2017-10-16"
+        }
+      }
+    },
     "qub-typescript-csv-vscode": {
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
@@ -302,23 +339,6 @@
           "Started": "2017-09-05",
           "Completed": "2017-09-05",
           "Notes": "https://code.visualstudio.com/docs/extensions/example-word-count#_update-the-status-bar"
-        }
-      }
-    },
-    "qub-tasks": {
-      "Conceived": "2017-09-05",
-      "Started": "2017-09-05",
-      "PlannedTasks": {},
-      "CompletedTasks": {
-        "Copy documentation from old qub repository": {
-          "Conceived": "2017-09-05",
-          "Started": "2017-09-05",
-          "Completed": "2017-09-05"
-        },
-        "Create repository": {
-          "Conceived": "2017-09-05",
-          "Started": "2017-09-05",
-          "Completed": "2017-09-05"
         }
       }
     },
@@ -2767,6 +2787,23 @@
     }
   },
   "CompletedTasks": {
+    "qub-tasks": {
+      "Conceived": "2017-09-05",
+      "Started": "2017-09-05",
+      "Completed": "2017-10-08",
+      "CompletedTasks": {
+        "Copy documentation from old qub repository": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-05",
+          "Completed": "2017-09-05"
+        },
+        "Create repository": {
+          "Conceived": "2017-09-05",
+          "Started": "2017-09-05",
+          "Completed": "2017-09-05"
+        }
+      }
+    },
     "Create qub npm package from Qub GitHub repository (qub-typescript)": {
       "Conceived": "2017-06-15",
       "Started": "2017-09-05",

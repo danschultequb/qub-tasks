@@ -5,15 +5,12 @@
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Add basic profiling and summary analysis": {
-          "Conceived": "2017-09-28",
-          "Started": "2017-09-28"
+        "Update template pom.xml dependency versions based on pom.xml in azure-sdk-for-java": {
+          "Conceived": "2017-09-27",
+          "Started": "2017-10-04"
         }
       },
       "PlannedTasks": {
-        "Update template pom.xml dependency versions based on pom.xml in azure-sdk-for-java": {
-          "Conceived": "2017-09-27"
-        },
         "Update template .csproj package versions based on .csproj in azure-libraries-for-net": {
           "Conceived": "2017-09-27"
         },
@@ -35,6 +32,11 @@
         }
       },
       "CompletedTasks": {
+        "Add basic profiling and summary analysis": {
+          "Conceived": "2017-09-28",
+          "Started": "2017-09-28",
+          "Completed": "2017-10-04"
+        },
         "Add dependency reducer that looks at a Java file's imports and compares them against a hard-coded map": {
           "Conceived": "2017-09-27",
           "Started": "2017-09-28",
@@ -157,6 +159,9 @@
           "Completed": "2017-09-06"
         }
       }
+    },
+    "Read about Azure Networking Load Balancers": {
+      "Conceived": "2017-10-04"
     }
   },
   "CompletedTasks": {
