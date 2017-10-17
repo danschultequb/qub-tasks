@@ -15,9 +15,24 @@
         }
       },
       "PlannedTasks": {
+        "Add FileSystem.readFileContents() functions": {
+          "Conceived": "2017-10-17"
+        },
+        "Add FileSystem.readFileLines() functions": {
+          "Conceived": "2017-10-17"
+        },
+        "Add FileSystem.readFileContentsAsync() functions": {
+          "Conceived": "2017-10-17"
+        },
+        "Add FileSystem.readFileLinesAsync() functions": {
+          "Conceived": "2017-10-17"
+        },
         "Add AsyncIterator interface": {
           "Conceived": "2017-09-05",
           "Notes": "This is my equivalent of ReactiveX's Observable. It will use an onNext(Action1<T>) method."
+        },
+        "Add AsyncRunnerProfiler": {
+          "Conceived": "2017-10-17"
         },
         "Make Path.parse() reject a path if it has a '?' or a '*' in it": {
           "Conceived": "2017-10-04"
