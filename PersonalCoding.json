@@ -5,19 +5,12 @@
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Add MainAsyncRunner and ParallelAsyncRunner variables to Console class": {
-          "Conceived": "2017-10-04",
-          "Started": "2017-10-16"
-        },
-        "Add async versions of FileSystem functions": {
-          "Conceived": "2017-10-16",
-          "Started": "2017-10-16"
+        "Add FileSystem.readFileContents() functions": {
+          "Conceived": "2017-10-17",
+          "Started": "2017-10-18"
         }
       },
       "PlannedTasks": {
-        "Add FileSystem.readFileContents() functions": {
-          "Conceived": "2017-10-17"
-        },
         "Add FileSystem.readFileLines() functions": {
           "Conceived": "2017-10-17"
         },
@@ -80,6 +73,16 @@
         }
       },
       "CompletedTasks": {
+        "Add MainAsyncRunner and ParallelAsyncRunner variables to Console class": {
+          "Conceived": "2017-10-04",
+          "Started": "2017-10-16",
+          "Completed": "2017-10-18"
+        },
+        "Add async versions of FileSystem functions": {
+          "Conceived": "2017-10-16",
+          "Started": "2017-10-16",
+          "Completed": "2017-10-18"
+        },
         "Create MainAsyncRunner class": {
           "Conceived": "2017-10-04",
           "Started": "2017-10-16",
