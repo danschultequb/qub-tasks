@@ -5,12 +5,16 @@
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Add FileSystem.readFileContents() functions": {
-          "Conceived": "2017-10-17",
-          "Started": "2017-10-18"
+        "Make Root not inherit from Folder": {
+          "Conceived": "2017-10-04",
+          "Started": "2017-10-18",
+          "Notes": "You can delete a folder, but you can't delete a root. Therefore a root is not a folder"
         }
       },
       "PlannedTasks": {
+        "Add FileSystem.readFileContents() functions": {
+          "Conceived": "2017-10-17"
+        },
         "Add FileSystem.readFileLines() functions": {
           "Conceived": "2017-10-17"
         },
@@ -47,10 +51,6 @@
         },
         "Update FileSystem.getFilesAndFolders(String) to parse as Path and then as a PathPattern": {
           "Conceived": "2017-10-04"
-        },
-        "Make Root not inherit from Folder": {
-          "Conceived": "2017-10-04",
-          "Notes": "You can delete a folder, but you can't delete a root. Therefore a root is not a folder"
         },
         "Add AndroidFileSystem": {
           "Conceived": "2017-09-18"
