@@ -5,16 +5,12 @@
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Make Root not inherit from Folder": {
-          "Conceived": "2017-10-04",
-          "Started": "2017-10-18",
-          "Notes": "You can delete a folder, but you can't delete a root. Therefore a root is not a folder"
+        "Add FileSystem.readFileContents() functions": {
+          "Conceived": "2017-10-17",
+          "Started": "2017-10-19"
         }
       },
       "PlannedTasks": {
-        "Add FileSystem.readFileContents() functions": {
-          "Conceived": "2017-10-17"
-        },
         "Add FileSystem.readFileLines() functions": {
           "Conceived": "2017-10-17"
         },
@@ -73,6 +69,12 @@
         }
       },
       "CompletedTasks": {
+        "Make Root not inherit from Folder": {
+          "Conceived": "2017-10-04",
+          "Started": "2017-10-18",
+          "Completed": "2017-10-19",
+          "Notes": "You can delete a folder, but you can't delete a root. Therefore a root is not a folder"
+        },
         "Add MainAsyncRunner and ParallelAsyncRunner variables to Console class": {
           "Conceived": "2017-10-04",
           "Started": "2017-10-16",
