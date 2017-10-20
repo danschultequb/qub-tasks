@@ -5,9 +5,9 @@
       "Conceived": "2017-09-05",
       "Started": "2017-09-05",
       "ActiveTasks": {
-        "Add FileSystem.getFileContentBlocks()": {
+        "Add FileSystem.iterateFileContentBlocks()": {
           "Conceived": "2017-10-19",
-          "Started": "2017-10-19"
+          "Started": "2017-10-20"
         }
       },
       "PlannedTasks": {
@@ -69,6 +69,11 @@
         }
       },
       "CompletedTasks": {
+        "Add FileSystem.getFileContentBlocks()": {
+          "Conceived": "2017-10-19",
+          "Started": "2017-10-19",
+          "Completed": "2017-10-19"
+        },
         "Add FileSystem.readFileContents() functions": {
           "Conceived": "2017-10-17",
           "Started": "2017-10-19",
